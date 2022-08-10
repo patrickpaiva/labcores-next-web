@@ -7,7 +7,24 @@ export const Container = styled.div`
   left: 0;
   height: 80px;
   z-index: 10;
+  background: 0 0;
+  box-shadow: none;
 
+  &.scroll {
+    transition: background .2s ease,box-shadow .2s ease;
+    background: #fff;
+    box-shadow: 0 1px 0 #f7f7f7;
+
+    nav a {
+      p{
+        color: #000;
+      }
+    }
+
+    .menu a {
+      color: #4a4a4a;
+    }
+  }
 
   nav {
     display: flex;
@@ -18,9 +35,6 @@ export const Container = styled.div`
     height: 100%;
     margin-right: auto;
     margin-left: auto;
-    background: 0 0;
-    box-shadow: none;
-
 
     a {
       display: flex;
@@ -33,6 +47,11 @@ export const Container = styled.div`
         color: #fff;
         font-weight: 400;
         margin-left: 5px;
+        transition: color 0.2s;
+
+        &:hover {
+          color: ${(props) => props.theme.colors.green};
+        }
       }
     }
 
@@ -40,21 +59,6 @@ export const Container = styled.div`
       height: 60px;
     }
 
-  }
-  .scroll {
-    transition: background .2s ease,box-shadow .2s ease;
-    background: #fff;
-    box-shadow: 0 1px 0 #f7f7f7;
-
-    a {
-      p{
-        color: #000;
-      }
-    }
-
-    .menu a {
-      color: #4a4a4a;
-    }
   }
 
   .menu {
@@ -76,7 +80,7 @@ export const Container = styled.div`
   }
 
   .menu a:hover {
-    color: #c5c5c5;
+    color: ${(props) => props.theme.colors.green};
   }
 
 `

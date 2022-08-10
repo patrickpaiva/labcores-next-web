@@ -17,8 +17,8 @@ const Header: React.FC = () => {
   }, [])
 
   return (
-    <Container>
-      <nav className={(clientWindowHeight >=80) ? 'scroll' : ''}>
+    <Container className={(clientWindowHeight >=80) ? 'scroll' : ''}>
+      <nav>
         <a href="/">
           <img src="/images/logo.png" alt="LabCores" />
           <p>cores</p>
