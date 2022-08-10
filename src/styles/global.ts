@@ -12,8 +12,8 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #121214;
-    color: #e1e1e6;
+    background: #fff;
+    color: #000;
     font: 400 1.6rem 'Plus Jakarta Sans', sans-serif;
   }
 
