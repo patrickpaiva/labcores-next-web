@@ -1,6 +1,10 @@
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
+  :root {
+    font-size: 62.5%;
+  }
+
   * {
     margin: 0;
     padding: 0;
@@ -10,7 +14,7 @@ export default createGlobalStyle`
   body {
     background: #121214;
     color: #e1e1e6;
-    font: 400 16px Roboto, sans-serif;
+    font: 400 1.6rem 'Plus Jakarta Sans', sans-serif;
   }
 
 `

@@ -1,15 +1,16 @@
-import Head from 'next/head'
+import Header from '../components/Header/Header'
+import Hero from '../components/Hero/Hero'
+import { Container } from '../styles/pages/Home'
 
 const Home: React.FC = () => {
   return (
-    <div>
-      <Head>
-        <title>Homepage</title>
-      </Head>
+    <Container>
+      <Header />
+      <Hero />
+      <Hero />
       <main>
-          <h1>Hello World</h1>
       </main>
-    </div>
+    </Container>
   )
 }
 
