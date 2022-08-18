@@ -1,6 +1,6 @@
 import Header from '../components/Header/Header'
 import Hero from '../components/Hero/Hero'
-import { Container, Presentation, Team } from '../styles/pages/Home'
+import { Container, Presentation, Researches, Team } from '../styles/pages/Home'
 
 const Home: React.FC = () => {
   return (
@@ -33,6 +33,31 @@ const Home: React.FC = () => {
             </div>
           </div>
         </Team>
+        <Researches>
+          <div className="content">
+            <h2>RESEARCH <span>AREAS</span></h2>
+            <div className="boxes">
+              <div className="box">
+                <h3>Domains</h3>
+                <ul>
+                  <li>Urban Centers</li>
+                  <li>Science and Academy</li>
+                </ul>
+                <a href="\">Know More</a>
+              </div>
+              <div className="box">
+                <h3>Areas</h3>
+                <ul>
+                  <li>Intelligent Ecosystems</li>
+                  <li>Sensing and Monitoring</li>
+                  <li>Pattern Recognition</li>
+                  <li>Data Engineering and Semantic Treatment</li>
+                </ul>
+                <a href="\">Know More</a>
+              </div>
+            </div>
+          </div>
+        </Researches>
       </main>
     </Container>
   )

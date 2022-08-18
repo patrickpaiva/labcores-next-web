@@ -164,3 +164,98 @@ export const Team = styled.div`
     }
   }
 `
+
+export const Researches = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 400px;
+  width: 100vw;
+  max-width: 1200px;
+
+  .content {
+    width: 100vw;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+
+    h2 {
+      font-size: 3.2rem;
+      font-weight: 300;
+
+      span {
+        color: ${(props) => props.theme.colors.red};
+      }
+    }
+
+    .boxes {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+      .box {
+        width: 400px;
+        height: 200px;
+        padding: 16px 40px;
+        border-radius: 10px;
+        background-color: #0D6892;
+        color: white;
+        font-weight: 300;
+        font-size: 1.4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        ul {
+          margin-top: 10px;
+          list-style-position: inside;
+          list-style-type: circle;
+          li {
+            margin-top: 5px;
+          }
+        }
+
+        h3 {
+          font-size: 2.4rem;
+          font-weight: 400;
+        }
+
+        a {
+          margin-top: 6px;
+          background-color: transparent;
+          border: 1px solid #fff;
+          padding: 6px 12px;
+          text-decoration: none;
+          color: #fff;
+          font-weight: 300;
+          border-radius: 4px;
+          transition: background-color 0.4s ease-out;
+
+          &:hover {
+            background-color: ${(props) => props.theme.colors.green};
+          }
+        }
+      }
+
+      .box:last-child{
+        background-color: #ECECEC;
+        color: black;
+
+        a {
+          color: black;
+          border-color: black;
+          transition: color 0.4s ease-out;
+
+          &:hover {
+            color: white;
+          }
+        }
+      }
+    }
+
+  }
+`
