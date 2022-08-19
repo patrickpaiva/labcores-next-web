@@ -53,5 +53,15 @@ export const Content = styled.div`
   p {
     font-size: 2rem;
     margin-top: 20px;
+    text-align: center;
+  }
+
+  @media (max-width: 430px) {
+    h1 {
+      font-size: 2.8rem;
+    }
+    p {
+      font-size: 1.8rem;
+    }
   }
 `

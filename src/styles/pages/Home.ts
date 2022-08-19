@@ -78,6 +78,10 @@ export const Presentation = styled.div`
 
     .diagram {
       margin-top: 32px;
+      img {
+        width: 85vw;
+        max-width: 400px;
+      }
     }
   }
 `
@@ -179,6 +183,11 @@ export const Team = styled.div`
     .content {
       flex-direction: column;
 
+      img {
+        width: 80vw;
+        max-width: 300px;
+      }
+
       .infos {
         margin-top: 24px;
         p {
@@ -187,6 +196,7 @@ export const Team = styled.div`
       }
     }
   }
+
 `
 export const Researches = styled.div`
   display: flex;
@@ -290,6 +300,8 @@ export const Researches = styled.div`
         flex-direction: column;
 
         .box {
+          height: 100%;
+          max-width: 90vw;
           margin-top: 24px;
         }
       }

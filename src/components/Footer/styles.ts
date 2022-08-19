@@ -119,10 +119,12 @@ export const Container = styled.div`
       .leftBox {
         margin-top: 60px;
         text-align: center;
-
       }
+    }
 
-
+    .copyright {
+      font-size: 1.2rem;
+      text-align: center;
     }
   }
 `
