@@ -1,3 +1,4 @@
+import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
 import Hero from '../components/Hero/Hero'
 import { Container, Presentation, Projects, Researches, Team } from '../styles/pages/Home'
@@ -84,6 +85,7 @@ const Home: React.FC = () => {
           </div>
         </Projects>
       </main>
+      <Footer />
     </Container>
   )
 }
