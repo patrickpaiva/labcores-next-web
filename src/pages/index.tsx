@@ -11,7 +11,7 @@ const Home: React.FC = () => {
       <main>
         <Presentation>
           <div className='about'>
-            <h2>LabCORES conducts researches using <span>Big Social Data</span></h2>
+            <h2>Lab CORES conducts researches using <span>Big Social Data</span></h2>
             <p>Our proposal is to solve real-world problems and promote <span>wellness</span> in populations.</p>
             <a href='/about-us'>ABOUT US</a>
           </div>
@@ -23,9 +23,9 @@ const Home: React.FC = () => {
           <div className='content'>
             <img src="/images/jonice-oliveira.png" alt="Jonice Olveira" />
             <div className='infos'>
-              <p className="title">TIME LabCORES</p>
+              <p className="title">Lab CORES Team</p>
               <p className="name">Jonice Oliveira</p>
-              <p className="details">Professora associada da UFRJ, Fundadora e Head do <span>LabCORES</span></p>
+              <p className="details">Associate professor at UFRJ, founder and head of <span>Lab CORES</span></p>
               <div className='about'>
                 <h2>Meet our <span>multidiciplinary</span> team</h2>
                 <p>Our researchers range from postdocs to undergraduate students.</p>

@@ -18,7 +18,6 @@ export const Container = styled.div`
     justify-content: center;
   }
 `
-
 export const Presentation = styled.div`
   display: flex;
   align-items: center;
@@ -69,6 +68,16 @@ export const Presentation = styled.div`
   .diagram {
     img {
       max-width: 400px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: 100%;
+    padding: 32px 0;
+
+    .diagram {
+      margin-top: 32px;
     }
   }
 `
@@ -162,8 +171,23 @@ export const Team = styled.div`
       }
     }
   }
-`
 
+  @media (max-width: 768px) {
+    height: 100%;
+    padding: 32px 0;
+
+    .content {
+      flex-direction: column;
+
+      .infos {
+        margin-top: 24px;
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+`
 export const Researches = styled.div`
   display: flex;
   align-items: center;
@@ -257,8 +281,21 @@ export const Researches = styled.div`
     }
 
   }
-`
 
+  @media (max-width: 768px) {
+    height: 100%;
+    padding: 32px 0;
+    .content {
+      .boxes {
+        flex-direction: column;
+
+        .box {
+          margin-top: 24px;
+        }
+      }
+    }
+  }
+`
 export const Projects = styled.div`
   width: 100vw;
   max-width: 100%;
@@ -327,6 +364,26 @@ export const Projects = styled.div`
 
           &:hover {
             background-color: ${(props) => props.theme.colors.red};
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    height: 100%;
+    padding: 32px 0;
+
+    .content {
+      .newsBox {
+        flex-direction: column;
+        margin-top: 24px;
+
+        .news {
+          margin-bottom: 32px;
+          align-items: center;
+          h3 {
+            font-weight: 600;
           }
         }
       }

@@ -82,4 +82,37 @@ export const Container = styled.div`
     font-size: 1.4rem;
     margin-bottom: 8px;
   }
+
+  @media (max-width: 768px) {
+    height: 100%;
+
+    .content {
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 12px;
+
+      .rightBox {
+        align-items: center;
+        justify-content: center;
+
+        .social {
+          align-items: center;
+        }
+
+        .ufrjLogo {
+          align-self: center;
+          margin-top: 32px;
+        }
+      }
+
+      .leftBox {
+        margin-top: 60px;
+        text-align: center;
+
+      }
+
+
+    }
+  }
 `
