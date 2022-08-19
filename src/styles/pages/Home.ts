@@ -96,7 +96,6 @@ export const Team = styled.div`
 
     .infos {
       max-width: 400px;
-      height: 75%;
       display: flex;
       flex-direction: column;
 

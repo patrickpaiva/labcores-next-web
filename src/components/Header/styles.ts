@@ -83,4 +83,22 @@ export const Container = styled.div`
     color: ${(props) => props.theme.colors.green};
   }
 
+  .hamburguer {
+    display: none;
+    height: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .menu {
+      position: absolute;
+      display: none;
+    }
+
+    .hamburguer {
+      display: flex;
+      justify-self: flex-end;
+      cursor: pointer;
+    }
+  }
+
 `

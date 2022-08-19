@@ -47,6 +47,7 @@ export const Content = styled.div`
   h1 {
     font-size: 3.6rem;
     font-weight: 600;
+    text-align: center;
   }
 
   p {

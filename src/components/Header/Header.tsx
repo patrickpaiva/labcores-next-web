@@ -1,11 +1,16 @@
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
+import DropDownMenu from './DropDownMenu';
 
 import { Container } from './styles'
 
 const Header: React.FC = () => {
   const [clientWindowHeight, setClientWindowHeight] = useState(0);
+  const [isOpen, setIsOpen] = useState(false)
 
+  function handleIsOpen() {
+    setIsOpen(!isOpen)
+  }
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,7 +36,14 @@ const Header: React.FC = () => {
           <a href="/latest-news">Latest News</a>
           <a href="/contact">Contact Us</a>
         </div>
+        <img
+        className="hamburguer"
+        src="/Images/hamburguer.png"
+        alt="Menu"
+        onClick={handleIsOpen}
+      />
       </nav>
+      <DropDownMenu isOpen={isOpen} onClick={handleIsOpen} />
     </Container>
   )
 }
