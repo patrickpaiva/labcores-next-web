@@ -24,6 +24,10 @@ export const Container = styled.div`
     .menu a {
       color: #4a4a4a;
     }
+
+    .hamburguer {
+      color: ${(props) => props.theme.colors.green};
+    }
   }
 
   nav {
@@ -86,6 +90,8 @@ export const Container = styled.div`
   .hamburguer {
     display: none;
     height: 10px;
+    color: white;
+    transition: color 200ms;
   }
 
   @media (max-width: 768px) {

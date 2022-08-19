@@ -36,12 +36,12 @@ const Header: React.FC = () => {
           <a href="/latest-news">Latest News</a>
           <a href="/contact">Contact Us</a>
         </div>
-        <img
-        className="hamburguer"
-        src="/Images/hamburguer.png"
-        alt="Menu"
-        onClick={handleIsOpen}
-      />
+        <div className={(clientWindowHeight >=80) ? 'hamburguer scroll' : 'hamburguer'} onClick={handleIsOpen}>
+          <svg width="30" height="10" viewBox="0 0 30 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="30" height="3" fill="currentColor"/>
+            <rect x="10" y="7" width="20" height="3" fill="currentColor"/>
+          </svg>
+        </div>
       </nav>
       <DropDownMenu isOpen={isOpen} onClick={handleIsOpen} />
     </Container>

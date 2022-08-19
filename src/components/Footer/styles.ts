@@ -98,6 +98,16 @@ export const Container = styled.div`
 
         .social {
           align-items: center;
+          .socialLogos {
+            margin-top: 16px;
+            img {
+              margin-left: 0px;
+              margin-right: 12px;
+            }
+            img:last-child {
+              margin-right: 0px !important;
+            }
+          }
         }
 
         .ufrjLogo {
