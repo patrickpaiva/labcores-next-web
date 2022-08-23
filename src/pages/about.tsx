@@ -3,13 +3,14 @@ import Banner from '../components/Banner/Banner'
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
 import { Container } from '../styles/pages/About'
+import theme from '../styles/theme'
 
 const About: React.FC = () => {
 
   return (
     <Container>
       <Header/>
-      <Banner title="About Us" bannerColor="#86B932" />
+      <Banner title="About Us" bannerColor={theme.colors.red} />
       <main>
         <div className="content">
           <h2>Humans as <span>sensors</span>. Smarter beings for <span>better cities</span>.</h2>
