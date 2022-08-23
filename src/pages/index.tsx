@@ -13,7 +13,7 @@ const Home: React.FC = () => {
           <div className='about'>
             <h2>Lab CORES conducts researches using <span>Big Social Data</span></h2>
             <p>Our proposal is to solve real-world problems and promote <span>wellness</span> in populations.</p>
-            <a href='/about-us'>ABOUT US</a>
+            <a href='/about'>ABOUT US</a>
           </div>
           <div className='diagram'>
             <img src="/images/cores-areas.png" alt="LabCores Working Groups" />
