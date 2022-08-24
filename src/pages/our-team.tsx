@@ -26,7 +26,35 @@ const OurTeam: React.FC = () => {
               </div>
             </div>
           </div>
-          <TeamContainer />
+          <TeamContainer>
+            <h3>Postdocs</h3>
+            <div className="teamContent">
+              <div className="member">
+                <img src="/images/livia-ruback.png" alt="Livia Ruback" />
+                <p className="name">LIVIA RUBACK</p>
+                <ul>
+                  <li>Sensing and Monitoring</li>
+                  <li>Identification of hate speech</li>
+                </ul>
+              </div>
+              <div className="member">
+                <img src="/images/danilo-carvalho.png" alt="Danilo Carvalho" />
+                <p className="name">DANILO CARVALHO</p>
+                <ul>
+                  <li>Pattern Recognition</li>
+                  <li>Machine translation methods</li>
+                </ul>
+              </div>
+              <div className="member">
+                <img src="/images/claudia-cappeli.png" alt="Claudia Cappeli" />
+                <p className="name">CLAUDIA CAPPELI</p>
+                <ul>
+                  <li>Intelligent Ecosystems</li>
+                  <li>Transparency and Digital Democracy</li>
+                </ul>
+              </div>
+            </div>
+          </TeamContainer>
         </div>
       </main>
       <Footer />

@@ -25,6 +25,7 @@ export const Container = styled.div`
       .head {
         max-width: 900px;
         width: 100%;
+        margin-bottom: 32px;
 
         h3 {
           font-weight: 300;
@@ -84,4 +85,68 @@ export const Container = styled.div`
   }
 `
 
-export const TeamContainer = styled.div``
+export const TeamContainer = styled.div`
+  max-width: 900px;
+  width: 100%;
+  margin-bottom: 32px;
+
+  h3 {
+    font-weight: 300;
+    font-size: 2.4rem;
+    margin-bottom: 12px;
+  }
+
+  .teamContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+    .member {
+      width: 260px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+
+      img {
+        max-width: 200px;
+        margin-bottom: 12px;
+      }
+
+      .name {
+        text-transform: uppercase;
+        font-size: 2.2rem;
+        margin-bottom: 8px;
+      }
+      ul {
+        list-style-type: none;
+        text-align: center;
+        font-weight: 300;
+
+        li {
+          margin-bottom: 4px;
+        }
+      }
+
+    }
+
+    .member:nth-child(3n+1) {
+      .name {
+        color: ${props => props.theme.colors.green};
+      }
+    }
+    .member:nth-child(3n+2) {
+      .name {
+        color: ${props => props.theme.colors.red};
+      }
+    }
+    .member:nth-child(3n+3) {
+      .name {
+        color: ${props => props.theme.colors.blue};
+      }
+    }
+  }
+
+`
