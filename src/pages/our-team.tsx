@@ -6,16 +6,16 @@ import { Container, TeamContainer } from '../styles/pages/OurTeam'
 import theme from '../styles/theme'
 
 const OurTeam: React.FC = () => {
-const postdocs = useRef(null)
+const sliders = useRef([null])
 
-const handleLeftClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+const handleLeftClick = (e: React.MouseEvent<HTMLButtonElement>, id: number) => {
   e.preventDefault();
-  postdocs.current.scrollLeft -= postdocs.current.offsetWidth;
+  sliders.current[id].scrollLeft -= sliders.current[id].offsetWidth;
 }
 
-const handleRightClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+const handleRightClick = (e: React.MouseEvent<HTMLButtonElement>, id: number) => {
   e.preventDefault();
-  postdocs.current.scrollLeft += postdocs.current.offsetWidth;
+  sliders.current[id].scrollLeft += sliders.current[id].offsetWidth;
 }
 
   return (
@@ -40,9 +40,56 @@ const handleRightClick = (e: React.MouseEvent<HTMLButtonElement>) => {
           </div>
           <TeamContainer>
             <h3>Postdocs</h3>
-            <button className="chevronLeft" onClick={handleLeftClick}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
-            <button className="chevronRight" onClick={handleRightClick}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
-            <div className="teamContent" ref={postdocs}>
+            <button className="chevronLeft" onClick={(e) => handleLeftClick(e, 0)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
+            <button className="chevronRight" onClick={(e) => handleRightClick(e, 0)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
+            <div className="teamContent" ref={(item) => sliders.current[0] = item}>
+              <div className="member">
+                <img src="/images/livia-ruback.png" alt="Livia Ruback" />
+                <p className="name">LIVIA RUBACK</p>
+                <ul>
+                  <li>Sensing and Monitoring</li>
+                  <li>Identification of hate speech</li>
+                </ul>
+              </div>
+              <div className="member">
+                <img src="/images/danilo-carvalho.png" alt="Danilo Carvalho" />
+                <p className="name">DANILO CARVALHO</p>
+                <ul>
+                  <li>Pattern Recognition</li>
+                  <li>Machine translation methods</li>
+                </ul>
+              </div>
+              <div className="member">
+                <img src="/images/claudia-cappeli.png" alt="Claudia Cappeli" />
+                <p className="name">CLAUDIA CAPPELI</p>
+                <ul>
+                  <li>Intelligent Ecosystems</li>
+                  <li>Transparency and Digital Democracy</li>
+                </ul>
+              </div>
+              <div className="member">
+                <img src="/images/claudia-cappeli.png" alt="Claudia Cappeli" />
+                <p className="name">CLAUDIA CAPPELI</p>
+                <ul>
+                  <li>Intelligent Ecosystems</li>
+                  <li>Transparency and Digital Democracy</li>
+                </ul>
+              </div>
+              <div className="member">
+                <img src="/images/claudia-cappeli.png" alt="Claudia Cappeli" />
+                <p className="name">CLAUDIA CAPPELI</p>
+                <ul>
+                  <li>Intelligent Ecosystems</li>
+                  <li>Transparency and Digital Democracy</li>
+                </ul>
+              </div>
+            </div>
+          </TeamContainer>
+          <TeamContainer>
+            <h3>D.Sc</h3>
+            <button className="chevronLeft" onClick={(e) => handleLeftClick(e, 1)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
+            <button className="chevronRight" onClick={(e) => handleRightClick(e, 1)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
+            <div className="teamContent" ref={(item) => sliders.current[1] = item}>
               <div className="member">
                 <img src="/images/livia-ruback.png" alt="Livia Ruback" />
                 <p className="name">LIVIA RUBACK</p>

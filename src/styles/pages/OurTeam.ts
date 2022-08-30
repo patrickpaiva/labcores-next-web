@@ -91,8 +91,6 @@ export const TeamContainer = styled.div`
   margin-bottom: 32px;
   position: relative;
 
-
-
   h3 {
     font-weight: 300;
     font-size: 2.4rem;
