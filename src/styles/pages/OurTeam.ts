@@ -89,6 +89,9 @@ export const TeamContainer = styled.div`
   max-width: 900px;
   width: 100%;
   margin-bottom: 32px;
+  position: relative;
+
+
 
   h3 {
     font-weight: 300;
@@ -96,19 +99,46 @@ export const TeamContainer = styled.div`
     margin-bottom: 12px;
   }
 
+  .chevronLeft {
+    position: absolute;
+    top: 40%;
+    left: -10%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    opacity: .7;
+    transform: rotateY(180deg);
+  }
+
+  .chevronRight {
+    position: absolute;
+    top: 40%;
+    right: -10%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    opacity: .7;
+  }
+
   .teamContent {
     width: 100%;
     height: 100%;
+    overflow-x: auto;
     display: flex;
-    align-items: flex-start;
-    justify-content: space-evenly;
+    scroll-behavior: smooth;
+    position: relative;
+
+    &::-webkit-scrollbar{
+      display: none;
+    }
 
     .member {
-      width: 260px;
+      min-width: 220px;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: flex-start;
+      margin-right: 5px;
 
       img {
         max-width: 200px;

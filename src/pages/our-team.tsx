@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Banner from '../components/Banner/Banner'
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
@@ -6,6 +6,18 @@ import { Container, TeamContainer } from '../styles/pages/OurTeam'
 import theme from '../styles/theme'
 
 const OurTeam: React.FC = () => {
+const postdocs = useRef(null)
+
+const handleLeftClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+  e.preventDefault();
+  postdocs.current.scrollLeft -= postdocs.current.offsetWidth;
+}
+
+const handleRightClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+  e.preventDefault();
+  postdocs.current.scrollLeft += postdocs.current.offsetWidth;
+}
+
   return (
     <Container>
       <Header/>
@@ -28,7 +40,9 @@ const OurTeam: React.FC = () => {
           </div>
           <TeamContainer>
             <h3>Postdocs</h3>
-            <div className="teamContent">
+            <button className="chevronLeft" onClick={handleLeftClick}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
+            <button className="chevronRight" onClick={handleRightClick}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
+            <div className="teamContent" ref={postdocs}>
               <div className="member">
                 <img src="/images/livia-ruback.png" alt="Livia Ruback" />
                 <p className="name">LIVIA RUBACK</p>
@@ -43,6 +57,22 @@ const OurTeam: React.FC = () => {
                 <ul>
                   <li>Pattern Recognition</li>
                   <li>Machine translation methods</li>
+                </ul>
+              </div>
+              <div className="member">
+                <img src="/images/claudia-cappeli.png" alt="Claudia Cappeli" />
+                <p className="name">CLAUDIA CAPPELI</p>
+                <ul>
+                  <li>Intelligent Ecosystems</li>
+                  <li>Transparency and Digital Democracy</li>
+                </ul>
+              </div>
+              <div className="member">
+                <img src="/images/claudia-cappeli.png" alt="Claudia Cappeli" />
+                <p className="name">CLAUDIA CAPPELI</p>
+                <ul>
+                  <li>Intelligent Ecosystems</li>
+                  <li>Transparency and Digital Democracy</li>
                 </ul>
               </div>
               <div className="member">
