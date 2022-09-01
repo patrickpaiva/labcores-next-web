@@ -16,6 +16,7 @@ export const Container = styled.div`
         font-weight: 300;
         letter-spacing: 1px;
         margin-top: 32px;
+        text-align: center;
 
         span {
           color: ${props => props.theme.colors.red};
@@ -82,6 +83,33 @@ export const Container = styled.div`
         }
       }
   }
+  }
+
+  @media (max-width: 900px) {
+
+    main .content .head {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 600px;
+      padding: 0 20px;
+      margin-top: 32px;
+
+      h3 {
+        width: inherit;
+      }
+    }
+    main .content .head .headContent{
+      flex-direction: column;
+
+      .joniceText {
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
   }
 `
 
@@ -183,5 +211,26 @@ export const TeamContainer = styled.div`
       }
     }
   }
+
+  @media (max-width: 1080px){
+    max-width: 675px;
+  }
+
+  @media (max-width: 800px){
+    max-width: 450px;
+  }
+
+  @media (max-width: 540px){
+    max-width: 225px;
+
+    .chevronRight{
+      right: -20%;
+    }
+
+    .chevronLeft{
+      left: -20%;
+    }
+  }
+
 
 `
