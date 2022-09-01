@@ -35,7 +35,7 @@ const OurTeam: React.FC = () => {
                 <p>
                 I am an associate professor at the Federal University of Rio de Janeiro (UFRJ), founder and head of  Lab CORES. My research is at the intersection of Data Science and Social Computing, focusing on Big Social Data (treatment, management and knowledge extraction). In my research, I try to solve real-world problems, with a special interest in crowd dynamics at large scale events, urban problems and determine how the analysis of social networks can help in promoting wellness in neglected populations .
                 </p>
-                <a href="/">See more</a>
+                <a href="https://www.joniceoliveira.net/">See more</a>
               </div>
             </div>
           </div>
