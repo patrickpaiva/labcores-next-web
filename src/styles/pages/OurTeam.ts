@@ -25,7 +25,7 @@ export const Container = styled.div`
       .head {
         max-width: 900px;
         width: 100%;
-        margin-bottom: 32px;
+        margin-bottom: 48px;
 
         h3 {
           font-weight: 300;
@@ -88,7 +88,7 @@ export const Container = styled.div`
 export const TeamContainer = styled.div`
   max-width: 900px;
   width: 100%;
-  margin-bottom: 32px;
+  margin-bottom: 48px;
   position: relative;
 
   h3 {
@@ -139,7 +139,10 @@ export const TeamContainer = styled.div`
       margin-right: 5px;
 
       img {
-        max-width: 200px;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
         margin-bottom: 12px;
       }
 
@@ -147,6 +150,10 @@ export const TeamContainer = styled.div`
         text-transform: uppercase;
         font-size: 2.2rem;
         margin-bottom: 8px;
+        text-align: center;
+        height: 56px;
+        display: flex;
+        align-items: center;
       }
       ul {
         list-style-type: none;

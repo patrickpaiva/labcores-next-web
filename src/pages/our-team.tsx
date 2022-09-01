@@ -4,19 +4,20 @@ import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
 import { Container, TeamContainer } from '../styles/pages/OurTeam'
 import theme from '../styles/theme'
+import team from '../assets/team.json'
 
 const OurTeam: React.FC = () => {
-const sliders = useRef([null])
+  const sliders = useRef([null])
 
-const handleLeftClick = (e: React.MouseEvent<HTMLButtonElement>, id: number) => {
-  e.preventDefault();
-  sliders.current[id].scrollLeft -= sliders.current[id].offsetWidth;
-}
+  const handleLeftClick = (e: React.MouseEvent<HTMLButtonElement>, id: number) => {
+    e.preventDefault();
+    sliders.current[id].scrollLeft -= sliders.current[id].offsetWidth;
+  }
 
-const handleRightClick = (e: React.MouseEvent<HTMLButtonElement>, id: number) => {
-  e.preventDefault();
-  sliders.current[id].scrollLeft += sliders.current[id].offsetWidth;
-}
+  const handleRightClick = (e: React.MouseEvent<HTMLButtonElement>, id: number) => {
+    e.preventDefault();
+    sliders.current[id].scrollLeft += sliders.current[id].offsetWidth;
+  }
 
   return (
     <Container>
@@ -43,46 +44,21 @@ const handleRightClick = (e: React.MouseEvent<HTMLButtonElement>, id: number) =>
             <button className="chevronLeft" onClick={(e) => handleLeftClick(e, 0)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
             <button className="chevronRight" onClick={(e) => handleRightClick(e, 0)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
             <div className="teamContent" ref={(item) => sliders.current[0] = item}>
-              <div className="member">
-                <img src="/images/livia-ruback.png" alt="Livia Ruback" />
-                <p className="name">LIVIA RUBACK</p>
-                <ul>
-                  <li>Sensing and Monitoring</li>
-                  <li>Identification of hate speech</li>
-                </ul>
-              </div>
-              <div className="member">
-                <img src="/images/danilo-carvalho.png" alt="Danilo Carvalho" />
-                <p className="name">DANILO CARVALHO</p>
-                <ul>
-                  <li>Pattern Recognition</li>
-                  <li>Machine translation methods</li>
-                </ul>
-              </div>
-              <div className="member">
-                <img src="/images/claudia-cappeli.png" alt="Claudia Cappeli" />
-                <p className="name">CLAUDIA CAPPELI</p>
-                <ul>
-                  <li>Intelligent Ecosystems</li>
-                  <li>Transparency and Digital Democracy</li>
-                </ul>
-              </div>
-              <div className="member">
-                <img src="/images/claudia-cappeli.png" alt="Claudia Cappeli" />
-                <p className="name">CLAUDIA CAPPELI</p>
-                <ul>
-                  <li>Intelligent Ecosystems</li>
-                  <li>Transparency and Digital Democracy</li>
-                </ul>
-              </div>
-              <div className="member">
-                <img src="/images/claudia-cappeli.png" alt="Claudia Cappeli" />
-                <p className="name">CLAUDIA CAPPELI</p>
-                <ul>
-                  <li>Intelligent Ecosystems</li>
-                  <li>Transparency and Digital Democracy</li>
-                </ul>
-              </div>
+              {team.postdocs.map((item, index) => {
+                return (
+                  <div className="member" key={index}>
+                    <img src={item.photo} alt={item.name} />
+                    <p className="name">{item.name}</p>
+                    <ul>
+                      {item.areas.map((area, id) => {
+                        return (
+                          <li key={id}>{area}</li>
+                        )
+                      })}
+                    </ul>
+                  </div>
+                )
+              } )}
             </div>
           </TeamContainer>
           <TeamContainer>
@@ -90,46 +66,21 @@ const handleRightClick = (e: React.MouseEvent<HTMLButtonElement>, id: number) =>
             <button className="chevronLeft" onClick={(e) => handleLeftClick(e, 1)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
             <button className="chevronRight" onClick={(e) => handleRightClick(e, 1)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
             <div className="teamContent" ref={(item) => sliders.current[1] = item}>
-              <div className="member">
-                <img src="/images/livia-ruback.png" alt="Livia Ruback" />
-                <p className="name">LIVIA RUBACK</p>
-                <ul>
-                  <li>Sensing and Monitoring</li>
-                  <li>Identification of hate speech</li>
-                </ul>
-              </div>
-              <div className="member">
-                <img src="/images/danilo-carvalho.png" alt="Danilo Carvalho" />
-                <p className="name">DANILO CARVALHO</p>
-                <ul>
-                  <li>Pattern Recognition</li>
-                  <li>Machine translation methods</li>
-                </ul>
-              </div>
-              <div className="member">
-                <img src="/images/claudia-cappeli.png" alt="Claudia Cappeli" />
-                <p className="name">CLAUDIA CAPPELI</p>
-                <ul>
-                  <li>Intelligent Ecosystems</li>
-                  <li>Transparency and Digital Democracy</li>
-                </ul>
-              </div>
-              <div className="member">
-                <img src="/images/claudia-cappeli.png" alt="Claudia Cappeli" />
-                <p className="name">CLAUDIA CAPPELI</p>
-                <ul>
-                  <li>Intelligent Ecosystems</li>
-                  <li>Transparency and Digital Democracy</li>
-                </ul>
-              </div>
-              <div className="member">
-                <img src="/images/claudia-cappeli.png" alt="Claudia Cappeli" />
-                <p className="name">CLAUDIA CAPPELI</p>
-                <ul>
-                  <li>Intelligent Ecosystems</li>
-                  <li>Transparency and Digital Democracy</li>
-                </ul>
-              </div>
+              {team.dscs.map((item, index) => {
+                  return (
+                    <div className="member" key={index}>
+                      <img src={item.photo} alt={item.name} />
+                      <p className="name">{item.name}</p>
+                      <ul>
+                        {item.areas.map((area, id) => {
+                          return (
+                            <li key={id}>{area}</li>
+                          )
+                        })}
+                      </ul>
+                    </div>
+                  )
+              })}
             </div>
           </TeamContainer>
         </div>
