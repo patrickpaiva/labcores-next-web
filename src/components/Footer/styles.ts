@@ -68,9 +68,9 @@ export const Container = styled.div`
         }
       }
 
-      .ufrjLogo {
+      .ufrjLink, .ufrjLogo {
         width: 250px;
-        margin-top: 64px;
+        margin-top: 32px;
         align-self: flex-end;
         cursor: pointer;
       }
@@ -100,19 +100,19 @@ export const Container = styled.div`
           align-items: center;
           .socialLogos {
             margin-top: 16px;
-            img {
+            a {
               margin-left: 0px;
               margin-right: 12px;
             }
-            img:last-child {
+            a:last-child {
               margin-right: 0px !important;
             }
           }
         }
 
-        .ufrjLogo {
+        .ufrjLink, .ufrjLogo {
           align-self: center;
-          margin-top: 32px;
+          margin-top: 16px;
         }
       }
 

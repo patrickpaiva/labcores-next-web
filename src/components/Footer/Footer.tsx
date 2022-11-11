@@ -19,12 +19,13 @@ const Footer: React.FC = () => {
           <div className="social">
             <p>Follow us on our social networks</p>
             <div className="socialLogos">
-              <img src="/Images/youtube.png" alt="YouTube logo" />
-              <img src="/Images/instagram.png" alt="instagram logo" />
-              <img src="/Images/facebook.png" alt="facebook logo" />
+              <a href="https://www.youtube.com/channel/UCF39iCywI12ywKXXFyW1Ouw" target="_blank"><img src="/Images/youtube.png" alt="YouTube logo" /></a>
+              <a href="https://www.facebook.com/LabCORES/" target="_blank"><img src="/Images/instagram.png" alt="instagram logo" /></a>
+              <a href="https://www.facebook.com/LabCORES/" target="_blank"><img src="/Images/facebook.png" alt="facebook logo" /></a>
             </div>
           </div>
-          <img src="/Images/ufrjLogo.png" alt="Logo UFRJ" className="ufrjLogo" />
+          <a className='ufrjLink' href="https://ufrj.br/" target="_blank"><img src="/Images/ufrjLogo.png" alt="Logo UFRJ" className="ufrjLogo" /></a>
+          {/* <img src="/Images/ufrjLogo.png" alt="Logo UFRJ" className="ufrjLogo" /> */}
         </div>
       </div>
       <p className='copyright'>Made by students of the Lab CORES extension project - 2022</p>

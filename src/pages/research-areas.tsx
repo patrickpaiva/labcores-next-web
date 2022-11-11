@@ -43,7 +43,7 @@ const ResearchAreas: React.FC = () => {
             </div>
           </div>
         </ContentRight>
-        <h2>Areas</h2>
+        <h2 id="areas-id">Areas</h2>
         <div className="area" id="ecosystems">
           <h3>Intelligent Ecosystems</h3>
           <p>

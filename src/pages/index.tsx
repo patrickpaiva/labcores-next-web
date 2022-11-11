@@ -44,7 +44,7 @@ const Home: React.FC = () => {
                   <li>Urban Centers</li>
                   <li>Science and Academy</li>
                 </ul>
-                <a href="\">Know More</a>
+                <a href="\research-areas">Know More</a>
               </div>
               <div className="box">
                 <h3>Areas</h3>
@@ -54,7 +54,7 @@ const Home: React.FC = () => {
                   <li>Pattern Recognition</li>
                   <li>Data Engineering and Semantic Treatment</li>
                 </ul>
-                <a href="\">Know More</a>
+                <a href="\research-areas\#areas-id">Know More</a>
               </div>
             </div>
           </div>
