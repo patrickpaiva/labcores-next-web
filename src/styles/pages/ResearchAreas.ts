@@ -13,7 +13,7 @@ export const Container = styled.div`
 
     h2 {
       font-weight: 300;
-      font-size: 3.2rem;
+      font-size: 3.6rem;
       text-align: center;
       margin-top: 32px;
       margin-bottom: 32px;

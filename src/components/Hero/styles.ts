@@ -50,7 +50,7 @@ export const Content = styled.div`
     text-align: center;
 
     span:nth-child(1){
-      color: ${(props) => props.theme.colors.blue};
+      /* color: ${(props) => props.theme.colors.blue}; */
     }
     span:nth-child(2){
       color: ${(props) => props.theme.colors.blue};
@@ -62,7 +62,7 @@ export const Content = styled.div`
       color: ${(props) => props.theme.colors.green};
     }
     span:nth-child(5){
-      color: ${(props) => props.theme.colors.green};
+      /* color: ${(props) => props.theme.colors.green}; */
     }
   }
 

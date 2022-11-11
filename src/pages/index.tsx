@@ -29,7 +29,7 @@ const Home: React.FC = () => {
               <div className='about'>
                 <h2>Meet our <span>multidiciplinary</span> team</h2>
                 <p>Our researchers range from postdocs to undergraduate students.</p>
-                <a href='/ourt-team'>OUR TEAM</a>
+                <a href='/our-team'>OUR TEAM</a>
               </div>
             </div>
           </div>
