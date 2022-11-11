@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
     <Container>
       <div className="content">
         <div className="leftBox">
-          <img src="/Images/logo-footer.png" alt="logo LabCores" />
+          <img src="/images/logo-footer.png" alt="logo LabCores" />
           <p>Lab CORES is an initiative of the Universidade Federal do Rio de Janeiro.</p>
           <p><strong>Address</strong> <br />
             Av. Athos da Silveira Ramos, 274 <br />
@@ -19,12 +19,12 @@ const Footer: React.FC = () => {
           <div className="social">
             <p>Follow us on our social networks</p>
             <div className="socialLogos">
-              <a href="https://www.youtube.com/channel/UCF39iCywI12ywKXXFyW1Ouw" target="_blank"><img src="/Images/youtube.png" alt="YouTube logo" /></a>
-              <a href="https://www.facebook.com/LabCORES/" target="_blank"><img src="/Images/instagram.png" alt="instagram logo" /></a>
-              <a href="https://www.facebook.com/LabCORES/" target="_blank"><img src="/Images/facebook.png" alt="facebook logo" /></a>
+              <a href="https://www.youtube.com/channel/UCF39iCywI12ywKXXFyW1Ouw" target="_blank"><img src="/images/youtube.png" alt="YouTube logo" /></a>
+              <a href="https://www.facebook.com/LabCORES/" target="_blank"><img src="/images/instagram.png" alt="instagram logo" /></a>
+              <a href="https://www.facebook.com/LabCORES/" target="_blank"><img src="/images/facebook.png" alt="facebook logo" /></a>
             </div>
           </div>
-          <a className='ufrjLink' href="https://ufrj.br/" target="_blank"><img src="/Images/ufrjLogo.png" alt="Logo UFRJ" className="ufrjLogo" /></a>
+          <a className='ufrjLink' href="https://ufrj.br/" target="_blank"><img src="/images/ufrjLogo.png" alt="Logo UFRJ" className="ufrjLogo" /></a>
           {/* <img src="/Images/ufrjLogo.png" alt="Logo UFRJ" className="ufrjLogo" /> */}
         </div>
       </div>
