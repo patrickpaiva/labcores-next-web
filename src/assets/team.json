@@ -2,54 +2,54 @@
   "postdocs": [
     {
       "name": "Livia Ruback",
-      "photo": "https://media-exp1.licdn.com/dms/image/C4E03AQFLpVlSfjMFRg/profile-displayphoto-shrink_200_200/0/1576267445183?e=1667433600&v=beta&t=VmIQNUNNmvJ4W75R0KsLkRgrk60Dv7AIisyS5HjLCq4",
+      "photo": "/images/livia-ruback.png",
       "areas": ["Sensing and Monitoring", "Identification of hate speech"]
     },
     {
       "name": "Danilo Carvalho",
-      "photo": "https://media-exp1.licdn.com/dms/image/C4D03AQHzEuPzowZ4gQ/profile-displayphoto-shrink_200_200/0/1517394408700?e=1667433600&v=beta&t=rLkXZXrbvThCmug9_GYgfQtTlr_Y4BZWLZBtR0JERoE",
+      "photo": "/images/danilo-carvalho.png",
       "areas": ["Pattern Recognition", "Machine translation methods"]
     },
     {
       "name": "Claudia Cappeli",
-      "photo": "https://csbc.ufsc.br/wp-content/uploads/2021/07/Foto-Claudia-Cappelli.jpeg",
+      "photo": "/images/claudia-cappeli.png",
       "areas": ["Intelligent Ecosystems", "Transparency and Digital Democracy"]
     }
   ],
   "dscs": [
     {
       "name": "Anderson Cordeiro",
-      "photo": "https://media-exp1.licdn.com/dms/image/C4D03AQFf9i9rH9hK1Q/profile-displayphoto-shrink_200_200/0/1643299708877?e=1667433600&v=beta&t=pJ3ypMAYY5VGU-DQfE_i3eTGdhBuPdzyq39rEJvtfjo",
+      "photo": "/images/anderson-cordeiro.jpg",
       "areas": ["Sensing and Monitoring", "Transparency and Tackling Disinformation"]
     },
     {
       "name": "Diogo Nolasco",
-      "photo": "https://media-exp1.licdn.com/dms/image/C4D03AQFyVrUu9Pw00g/profile-displayphoto-shrink_200_200/0/1531864628190?e=1667433600&v=beta&t=Zw0llsEXNZ0J1M_2KBowWdY6R79HjY1a-C7KvmkdVXI",
+      "photo": "/images/diogo-nolasco.jpg",
       "areas": ["Pattern Recognition", "Data Management"]
     },
     {
       "name": "Fabrício Firmino",
-      "photo": "https://i1.rgstatic.net/ii/profile.image/606951960494081-1521720032181_Q128/Fabricio-Faria.jpg",
+      "photo": "/images/fabricio-firmino.jpg",
       "areas": ["Pattern Recognition", "Data Management"]
     },
     {
       "name": "Jamile Santos",
-      "photo": "https://media-exp1.licdn.com/dms/image/C4D03AQEsLUMIv_RgZQ/profile-displayphoto-shrink_200_200/0/1580409121945?e=1667433600&v=beta&t=5bbXbmokZjUXcNSfnL-rf2z8gP__XsYp2m1mxCAd1_4",
+      "photo": "/images/jamile-santos.jpg",
       "areas": ["Transparency and Tackling Disinformation", "Sensing and Monitoring"]
     },
     {
       "name": "Jivago Medeiros",
-      "photo": "https://media-exp1.licdn.com/dms/image/C4E03AQHUU4L05Oz0gw/profile-displayphoto-shrink_200_200/0/1517074812122?e=1667433600&v=beta&t=SvMB51jy_vhe5EDUgohMEYIlP-XOYL24AitOQqSQKIE",
+      "photo": "/images/jivago-medeiros.jpg",
       "areas": ["Data Management", "Intelligent Ecosystems"]
     },
     {
       "name": "Luís F. Monsores",
-      "photo": "https://i1.rgstatic.net/ii/profile.image/358586787090433-1462505160342_Q128/Luis-Fernando-Passos-Maia.jpg",
+      "photo": "/images/luis-monsores.jpg",
       "areas": ["Sensing and Monitoring"]
     },
     {
       "name": "Luiz Paulo Carvalho",
-      "photo": "https://i1.rgstatic.net/ii/profile.image/823871611621377-1573437707505_Q128/Luiz-Paulo-Carvalho.jpg",
+      "photo": "/images/luiz-paulo-carvalho.jpg",
       "areas": ["Transparency and Tackling Disinformation", "Sensing and Monitoring"]
     },
     {
@@ -64,17 +64,17 @@
     },
     {
       "name": "Silas Filho",
-      "photo": "https://i1.rgstatic.net/ii/profile.image/1047694692847616-1626801288305_Q128/Silas-Lima-Filho.jpg",
+      "photo": "/images/silas-filho.jpg",
       "areas": ["Sensing and Monitoring", "Pattern Recognition"]
     },
     {
       "name": "Sirius Silva",
-      "photo": "https://i1.rgstatic.net/ii/profile.image/1080620541321224-1634651422679_Q128/Sirius-Silva.jpg",
+      "photo": "/images/sirius-silva.jpg",
       "areas": ["Transparency and Tackling Disinformation"]
     },
     {
       "name": "Vladimir Fagundes",
-      "photo": "https://media-exp1.licdn.com/dms/image/C4D03AQE5cDnvKuWR0w/profile-displayphoto-shrink_200_200/0/1516951067166?e=1667433600&v=beta&t=biZZj3Ya1ApgGD3M76ec1nlWcsAPOF7emHfWnqeioVc",
+      "photo": "/images/vladimir-fagundes.jpg",
       "areas": ["Intelligent Ecosystems", "Transparency and Tackling Disinformation"]
     }
   ]
