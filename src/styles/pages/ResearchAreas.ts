@@ -69,6 +69,37 @@ export const Container = styled.div`
 
   }
 
+  @media (max-width: 900px) {
+    main {
+      h3 {
+        align-self: center;
+        text-align: center;
+      }
+      .area {
+      width: 100%;
+      max-width: 940px;
+      padding: 0 20px;
+      margin-bottom: 32px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+
+        p {
+          max-width: 100%;
+          margin-bottom: 18px;
+
+          img {
+            width: 100%;
+            max-width: 100%;
+            margin-right: 0px;
+          }
+        }
+      }
+
+    }
+  }
+
 `
 
 export const ContentLeft = styled.div`
@@ -102,6 +133,19 @@ export const ContentLeft = styled.div`
 
       p {
         max-width: 400px;
+      }
+    }
+  }
+
+  @media (max-width: 900px) {
+    .section {
+      .title {
+        align-self: center;
+      }
+      .box {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
       }
     }
   }
@@ -141,6 +185,19 @@ export const ContentRight = styled.div`
 
       p {
         max-width: 400px;
+      }
+    }
+  }
+
+  @media (max-width: 900px) {
+    .section {
+      .title {
+        align-self: center;
+      }
+      .box {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
       }
     }
   }
