@@ -6,13 +6,14 @@ import pt from '../../assets/pt'
 
 import { Container } from './styles'
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 
 const Header: React.FC = () => {
   const [clientWindowHeight, setClientWindowHeight] = useState(0);
   const [isOpen, setIsOpen] = useState(false)
 
   const router = useRouter();
-  const { locale } = router;
+  const { locale, pathname, asPath, query } = router;
   const translate = locale === 'en' ? en : pt
 
   function handleIsOpen() {
@@ -21,7 +22,7 @@ const Header: React.FC = () => {
 
   function changeLanguage(e) {
     const locale = e.target.value;
-    router.push('/','/', { locale })
+    router.push({ pathname, query }, asPath, { locale })
   }
 
   useEffect(() => {
@@ -41,12 +42,12 @@ const Header: React.FC = () => {
           <p>cores</p>
         </a>
         <div className="menu">
-          <a href="/">{translate.HOME}</a>
-          <a href="/about">{translate.ABOUT_US}</a>
-          <a href="/our-team">{translate.OUR_TEAM}</a>
-          <a href="/research-areas">{translate.RESEARCH_AREAS}</a>
-          <a href="/latest-news">{translate.LATEST_NEWS}</a>
-          <a href="/contact">{translate.CONTACT_US}</a>
+          <Link href="/" locale={ locale }>{translate.HOME}</Link>
+          <Link href="/about" locale={ locale }>{translate.ABOUT_US}</Link>
+          <Link href="/our-team" locale={ locale }>{translate.OUR_TEAM}</Link>
+          <Link href="/research-areas" locale={ locale }>{translate.RESEARCH_AREAS}</Link>
+          <Link href="/latest-news" locale={ locale }>{translate.LATEST_NEWS}</Link>
+          <Link href="/contact" locale={ locale }>{translate.CONTACT_US}</Link>
           <select
             onChange={changeLanguage}
             defaultValue={locale}

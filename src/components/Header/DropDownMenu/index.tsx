@@ -5,6 +5,7 @@ import pt from '../../../assets/pt'
 
 import { Container, Nav } from './styles'
 import { useRouter } from 'next/router'
+import Link from 'next/link'
 
 interface DropDownMenuProps {
   isOpen: boolean
@@ -13,12 +14,12 @@ interface DropDownMenuProps {
 
 const DropDownMenu: React.FC<DropDownMenuProps> = ({ isOpen, onClick }) => {
   const router = useRouter();
-  const { locale } = router;
+  const { locale, pathname, asPath, query } = router;
   const translate = locale === 'en' ? en : pt
 
   function changeLanguage(language) {
     const locale = language;
-    router.push('/','/', { locale })
+    router.push({ pathname, query }, asPath, { locale })
   }
 
   return (
@@ -27,22 +28,22 @@ const DropDownMenu: React.FC<DropDownMenuProps> = ({ isOpen, onClick }) => {
 
       <Nav>
         <div>
-          <a href="/">{translate.HOME}</a>
+          <Link href="/" locale={ locale }>{translate.HOME}</Link>
         </div>
         <div>
-          <a href="/about">{translate.ABOUT_US}</a>
+          <Link href="/about" locale={ locale }>{translate.ABOUT_US}</Link>
         </div>
         <div>
-          <a href="/our-team">{translate.OUR_TEAM}</a>
+          <Link href="/our-team" locale={ locale }>{translate.OUR_TEAM}</Link>
         </div>
         <div>
-          <a href="/research-areas">{translate.RESEARCH_AREAS}</a>
+          <Link href="/research-areas" locale={ locale }>{translate.RESEARCH_AREAS}</Link>
         </div>
         <div>
-          <a href="/latest-news">{translate.LATEST_NEWS}</a>
+          <Link href="/latest-news" locale={ locale }>{translate.LATEST_NEWS}</Link>
         </div>
         <div>
-          <a href="/contact">{translate.CONTACT_US}</a>
+          <Link href="/contact" locale={ locale }>{translate.CONTACT_US}</Link>
         </div>
         <div className='language'>
           <a onClick={() => changeLanguage('en')}>EN</a>

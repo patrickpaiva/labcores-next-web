@@ -14,5 +14,14 @@ export default {
   FOOTER_INITIATIVE: 'Lab CORES is an initiative of the Universidade Federal do Rio de Janeiro.',
   ADDRESS: 'Address',
   SOCIAL_MEDIA: 'Follow us on our social networks',
-  FOOTER_MADE_BY_STUDENTS: 'Made by students of the Lab CORES extension project'
+  FOOTER_MADE_BY_STUDENTS: 'Made by students of the Lab CORES extension project',
+  ABOUT_HUMAN_AS: 'Humans as',
+  ABOUT_SENSORS: 'sensors',
+  ABOUT_SMARTER_BEINGS: 'Smarter beings for',
+  ABOUT_BETTER_CITIES: 'better cities',
+  ABOUT_WOMAN_WITH_NOTEBOOK: 'Woman with her notebook',
+  ABOUT_1: 'More than entertainment or learning, through social media, we can identify unprecedented levels of citizen engagement and participation. This activity is called “participatory sensing” or “citizen sensing”. Moreover, sensors are embedded into our everyday environment, such as cars, micro-chipped animals, elevators, smart buildings, environmental monitors and others. Many people are now carrying some form of sensor-laden device - a mobile phone, a tablet, a fitness device - from which sensor readings can also be retrieved. In this case, people interact – direct and indirect – with sensors. This is called ‘human-in-the-loop sensing’, empowering the citizen sensing with new kind of data. In citizen sensing, a sensor is not necessarily a hardware sensor, but can be a virtual sensor or a human interpreting sensory data. This data explosion has resulted in the emerging topic of “Big Social Data”. Big Social Data refers to large data volumes that relate to people interactions (with other people or things) or describe their behaviors, needs, and patterns. This data generates a cycle of knowledge creation, which can be useful to resolve problems in urban centers. From this social interaction, we can create more accurate knowledge about the city and its dynamics to support monitoring, surveillance and decision-making tasks of various kinds.',
+  ABOUT_2: 'The Lab CORES conducts multidisciplinary research in understanding, simulation and supporting of social interactions through the use of Big Social Data, trying to solving real-world problems and promoting wellness in populations.',
+  ABOUT_3: 'The Lab CORES is organized broadly into working groups including:',
+  ABOUT_WORKING_GROUPS: 'LabCores Working Groups'
 }

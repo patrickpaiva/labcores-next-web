@@ -14,5 +14,14 @@ export default {
   FOOTER_INITIATIVE: 'Lab CORES é uma iniciativa da Universidade Federal do Rio de Janeiro.',
   ADDRESS: 'Endereço',
   SOCIAL_MEDIA: 'Siga-nos em nossas redes sociais',
-  FOOTER_MADE_BY_STUDENTS: 'Feito pelos alunos do projeto de extensão do Lab CORES'
+  FOOTER_MADE_BY_STUDENTS: 'Feito pelos alunos do projeto de extensão do Lab CORES',
+  ABOUT_HUMAN_AS: 'Humanos como',
+  ABOUT_SENSORS: 'sensores',
+  ABOUT_SMARTER_BEINGS: 'Seres inteligentes para',
+  ABOUT_BETTER_CITIES: 'cidades melhores',
+  ABOUT_WOMAN_WITH_NOTEBOOK: 'Mulher com seu notebook',
+  ABOUT_1: 'Mais do que entretenimento ou aprendizado, através das mídias sociais, podemos identificar níveis sem precedentes de engajamento e participação cidadã. Essa atividade é chamada de "sensoriamento participativo" ou "sensoriamento cidadão". Além disso, sensores estão incorporados em nosso ambiente cotidiano, como carros, animais com microchips, elevadores, prédios inteligentes, monitores ambientais e outros. Muitas pessoas agora carregam algum tipo de dispositivo com sensores - um telefone celular, um tablet, um dispositivo de fitness - a partir do qual leituras de sensores também podem ser obtidas. Nesse caso, as pessoas interagem - diretamente e indiretamente - com os sensores. Isso é chamado de \'sensoriamento humano em loop\', capacitando o sensoriamento cidadão com um novo tipo de dados. No sensoriamento cidadão, um sensor não é necessariamente um sensor de hardware, mas pode ser um sensor virtual ou um humano interpretando dados sensoriais. Essa explosão de dados resultou no tópico emergente de "Big Social Data". Big Social Data se refere a grandes volumes de dados que se relacionam com as interações das pessoas (com outras pessoas ou coisas) ou descrevem seus comportamentos, necessidades e padrões. Esses dados geram um ciclo de criação de conhecimento, que pode ser útil para resolver problemas em centros urbanos. A partir dessa interação social, podemos criar conhecimentos mais precisos sobre a cidade e suas dinâmicas para apoiar tarefas de monitoramento, vigilância e tomada de decisão de vários tipos.',
+  ABOUT_2: 'O Lab CORES realiza pesquisas multidisciplinares na compreensão, simulação e suporte de interações sociais por meio do uso de Big Social Data, buscando resolver problemas do mundo real e promover o bem-estar em populações.',
+  ABOUT_3: 'O Lab CORES está organizado amplamente em grupos de trabalho, incluindo:',
+  ABOUT_WORKING_GROUPS: 'Grupos de trabalho do LabCores'
 }
