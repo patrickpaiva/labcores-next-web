@@ -59,6 +59,21 @@ export const Container = styled.div`
       }
     }
 
+    select {
+      margin-left: 24px;
+      background-color: transparent;
+      border: none;
+      font-size: 1.6rem;
+      color: ${(props) => props.theme.colors.blue};
+      font-weight: bold;
+      font-family: 'Plus Jakarta Sans';
+
+      option {
+        background: ${(props) => props.theme.colors.green};
+        color: #fff;
+      }
+    }
+
     img {
       height: 60px;
     }

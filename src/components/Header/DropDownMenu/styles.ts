@@ -48,4 +48,17 @@ export const Nav = styled.div`
     text-align: center;
     font-size: 2.4rem;
   }
+
+  .language {
+    display: flex;
+    gap: 12px;
+    a {
+      color: #FFF;
+      font-size: 1.6rem;
+      background-color: ${(props) => props.theme.colors.blue};
+      padding: 6px;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+  }
 `

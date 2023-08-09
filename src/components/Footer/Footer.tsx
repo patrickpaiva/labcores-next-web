@@ -1,15 +1,21 @@
 import React from 'react'
 import { Container } from './styles';
+import en from '../../assets/en'
+import pt from '../../assets/pt'
+import { useRouter } from 'next/router';
 
 const Footer: React.FC = () => {
+  const router = useRouter();
+  const { locale } = router;
+  const translate = locale === 'en' ? en : pt
 
   return(
     <Container>
       <div className="content">
         <div className="leftBox">
           <img src="/images/logo-footer.png" alt="logo LabCores" />
-          <p>Lab CORES is an initiative of the Universidade Federal do Rio de Janeiro.</p>
-          <p><strong>Address</strong> <br />
+          <p>{translate.FOOTER_INITIATIVE}</p>
+          <p><strong>{translate.ADDRESS}</strong> <br />
             Av. Athos da Silveira Ramos, 274 <br />
             Ilha da Cidade Universitária <br />
             Rio de Janeiro - RJ <br />
@@ -17,7 +23,7 @@ const Footer: React.FC = () => {
         </div>
         <div className="rightBox">
           <div className="social">
-            <p>Follow us on our social networks</p>
+            <p>{translate.SOCIAL_MEDIA}</p>
             <div className="socialLogos">
               <a href="https://www.youtube.com/channel/UCF39iCywI12ywKXXFyW1Ouw" target="_blank"><img src="/images/youtube.png" alt="YouTube logo" /></a>
               <a href="https://www.facebook.com/LabCORES/" target="_blank"><img src="/images/instagram.png" alt="instagram logo" /></a>
@@ -28,7 +34,7 @@ const Footer: React.FC = () => {
           {/* <img src="/Images/ufrjLogo.png" alt="Logo UFRJ" className="ufrjLogo" /> */}
         </div>
       </div>
-      <p className='copyright'>Made by students of the Lab CORES extension project - 2022</p>
+      <p className='copyright'>{translate.FOOTER_MADE_BY_STUDENTS} - 2022</p>
     </Container>
   )
 }

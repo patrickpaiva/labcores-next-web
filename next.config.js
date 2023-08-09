@@ -3,6 +3,10 @@ const nextConfig = {
   reactStrictMode: true,
   compiler: {
     styledComponents: true,
+  },
+  i18n: {
+    locales: ['en', 'pt'],
+    defaultLocale: 'en'
   }
 }
 const withImages = require('next-images')

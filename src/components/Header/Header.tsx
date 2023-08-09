@@ -1,15 +1,27 @@
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 import DropDownMenu from './DropDownMenu';
+import en from '../../assets/en'
+import pt from '../../assets/pt'
 
 import { Container } from './styles'
+import { useRouter } from 'next/router';
 
 const Header: React.FC = () => {
   const [clientWindowHeight, setClientWindowHeight] = useState(0);
   const [isOpen, setIsOpen] = useState(false)
 
+  const router = useRouter();
+  const { locale } = router;
+  const translate = locale === 'en' ? en : pt
+
   function handleIsOpen() {
     setIsOpen(!isOpen)
+  }
+
+  function changeLanguage(e) {
+    const locale = e.target.value;
+    router.push('/','/', { locale })
   }
 
   useEffect(() => {
@@ -29,12 +41,19 @@ const Header: React.FC = () => {
           <p>cores</p>
         </a>
         <div className="menu">
-          <a href="/">Home</a>
-          <a href="/about">About Us</a>
-          <a href="/our-team">Our Team</a>
-          <a href="/research-areas">Research Areas</a>
-          <a href="/latest-news">Latest News</a>
-          <a href="/contact">Contact Us</a>
+          <a href="/">{translate.HOME}</a>
+          <a href="/about">{translate.ABOUT_US}</a>
+          <a href="/our-team">{translate.OUR_TEAM}</a>
+          <a href="/research-areas">{translate.RESEARCH_AREAS}</a>
+          <a href="/latest-news">{translate.LATEST_NEWS}</a>
+          <a href="/contact">{translate.CONTACT_US}</a>
+          <select
+            onChange={changeLanguage}
+            defaultValue={locale}
+          >
+            <option value="en">EN</option>
+            <option value="pt">PT</option>
+          </select>
         </div>
         <div className={(clientWindowHeight >=80) ? 'hamburguer scroll' : 'hamburguer'} onClick={handleIsOpen}>
           <svg width="30" height="10" viewBox="0 0 30 10" fill="none" xmlns="http://www.w3.org/2000/svg">
