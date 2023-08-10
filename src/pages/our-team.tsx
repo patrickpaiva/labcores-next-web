@@ -4,10 +4,18 @@ import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
 import { Container, TeamContainer } from '../styles/pages/OurTeam'
 import theme from '../styles/theme'
-import team from '../assets/team.json'
+import teamEn from '../assets/team_en.json'
+import teamPt from '../assets/team_pt.json'
+import en from '../assets/en'
+import pt from '../assets/pt'
+import { useRouter } from 'next/router'
 
 const OurTeam: React.FC = () => {
   const sliders = useRef([null])
+  const router = useRouter();
+  const { locale } = router;
+  const translate = locale === 'en' ? en : pt
+  const team = locale === 'en' ? teamEn : teamPt
 
   const handleLeftClick = (e: React.MouseEvent<HTMLButtonElement>, id: number) => {
     e.preventDefault();
@@ -22,25 +30,25 @@ const OurTeam: React.FC = () => {
   return (
     <Container>
       <Header/>
-      <Banner title="Our Team" bannerColor={theme.colors.green} />
+      <Banner title={translate.OUR_TEAM} bannerColor={theme.colors.green} />
       <main>
         <div className="content">
-          <h2>Meet <span>Lab Cores</span> Team</h2>
+          <h2>{translate.MEET} <span>{translate.LABCORES}</span> {translate.TEAM}</h2>
           <div className="head">
-            <h3>Head</h3>
+            <h3>{translate.COORD}</h3>
             <div className="headContent">
               <img src="/images/jonice-oliveira.png" alt="Jonice Oliveira" />
               <div className="joniceText">
                 <h4>JONICE OLIVEIRA</h4>
                 <p>
-                I am an associate professor at the Federal University of Rio de Janeiro (UFRJ), founder and head of  Lab CORES. My research is at the intersection of Data Science and Social Computing, focusing on Big Social Data (treatment, management and knowledge extraction). In my research, I try to solve real-world problems, with a special interest in crowd dynamics at large scale events, urban problems and determine how the analysis of social networks can help in promoting wellness in neglected populations .
+                {translate.ABOUT_4}
                 </p>
-                <a href="https://www.joniceoliveira.net/">See more</a>
+                <a href="https://www.joniceoliveira.net/">{translate.SEE_MORE}</a>
               </div>
             </div>
           </div>
           <TeamContainer>
-            <h3>Postdocs</h3>
+            <h3>{translate.POST_DOCS}</h3>
             <button className="chevronLeft" onClick={(e) => handleLeftClick(e, 0)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
             <button className="chevronRight" onClick={(e) => handleRightClick(e, 0)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
             <div className="teamContent" ref={(item) => sliders.current[0] = item}>

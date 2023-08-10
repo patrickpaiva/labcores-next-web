@@ -5,15 +5,23 @@ import Header from '../components/Header/Header'
 import { Container, MapContainer } from '../styles/pages/Contact'
 import theme from '../styles/theme'
 import Iframe from 'react-iframe'
+import en from '../assets/en'
+import pt from '../assets/pt'
+import { useRouter } from 'next/router'
+import { truncateSync } from 'fs'
 
 const ContactUs: React.FC = () => {
+
+  const router = useRouter();
+  const { locale } = router;
+  const translate = locale === 'en' ? en : pt
 
   return (
     <Container>
       <Header/>
-      <Banner title="Contact Us" bannerColor={theme.colors.red} />
+      <Banner title={translate.CONTACT_US} bannerColor={theme.colors.red} />
       <main>
-        <h2>Our <span>location</span></h2>
+        <h2>{translate.OUR_LOCATION} <span>{translate.LOCATION}</span></h2>
         <MapContainer>
           <Iframe
             url="https://www.google.com/maps/embed/v1/place?q=Center+for+Mathematics+and+Nature+(CCMN)+-+UFRJ+-+Avenida+Athos+da+Silveira+Ramos+-+Cidade+Universitária+da+Universidade+Federal+do+Rio+de+Janeiro,+Rio+de+Janeiro+-+RJ,+Brasil&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
@@ -23,7 +31,7 @@ const ContactUs: React.FC = () => {
           />
         </MapContainer>
         <div className="endereco">
-          <p><strong>Address</strong> <br />
+          <p><strong>{translate.ADDRESS}</strong> <br />
               Av. Athos da Silveira Ramos, 274 <br />
               Bl. E - Room 1038 (NCE) <br />
               Zip Code: 21941-916 <br />
@@ -32,16 +40,16 @@ const ContactUs: React.FC = () => {
               Brasil
           </p>
         </div>
-        <h2>Our <span>contacts</span></h2>
+        <h2>{translate.OUR_CONTACT} <span>{translate.CONTACT}</span></h2>
         <div className="dadosContato">
           <p>
-            <strong>Jonice Oliveira - Head</strong> <br />
+            <strong>Jonice Oliveira - {translate.COORD}</strong> <br />
             Phone: +55 21 3938-3353 <br />
             Fax: +55 21 3938-9515 <br />
             jonice@dcc.ufrj.br
           </p>
           <p>
-            <strong>Patricia Mamede - Assistant</strong> <br />
+            <strong>Patricia Mamede - {translate.COORD_ASSIST}</strong> <br />
             Phone: +55 21 3938-3237 <br />
             secretaria@ppgi.ufrj.br
           </p>
