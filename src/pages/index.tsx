@@ -2,8 +2,16 @@ import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
 import Hero from '../components/Hero/Hero'
 import { Container, Presentation, Projects, Researches, Team } from '../styles/pages/Home'
+import en from '../assets/en'
+import pt from '../assets/pt'
+import { useRouter } from 'next/router'
 
 const Home: React.FC = () => {
+
+  const router = useRouter();
+  const { locale } = router;
+  const translate = locale === 'en' ? en : pt
+
   return (
     <Container>
       <Header />
@@ -11,9 +19,9 @@ const Home: React.FC = () => {
       <main>
         <Presentation>
           <div className='about'>
-            <h2>Lab CORES conducts researches using <span>Big Social Data</span></h2>
-            <p>Our proposal is to solve real-world problems and promote <span>wellness</span> in populations.</p>
-            <a href='/about'>ABOUT US</a>
+            <h2>{translate.LAB_CORES_TEXT}<span>Big Social Data</span></h2>
+            <p>{translate.LAB_CORES_PROPOSAL}</p>
+            <a href='/about'>{translate.ABOUT_US}</a>
           </div>
           <div className='diagram'>
             <img src="/images/cores-areas.png" alt="LabCores Working Groups" />
@@ -23,45 +31,45 @@ const Home: React.FC = () => {
           <div className='content'>
             <img src="/images/jonice-oliveira.png" alt="Jonice Olveira" />
             <div className='infos'>
-              <p className="title">Lab CORES Team</p>
+              <p className="title">{translate.LAB_CORES_TEAM}</p>
               <p className="name">Jonice Oliveira</p>
-              <p className="details">Associate professor at UFRJ, founder and head of <span>Lab CORES</span></p>
+              <p className="details">{translate.JONICE_DETAILS}<span>{translate.LABCORES}</span></p>
               <div className='about'>
-                <h2>Meet our <span>multidiciplinary</span> team</h2>
-                <p>Our researchers range from postdocs to undergraduate students.</p>
-                <a href='/our-team'>OUR TEAM</a>
+                <h2>{translate.MEET_OUR}<span>{translate.MULTIDICIPLINARY}</span> {translate.TEAM}</h2>
+                <p>{translate.MEET_OUR_TEAM_TEXT}</p>
+                <a href='/our-team'>{translate.OUR_TEAM}</a>
               </div>
             </div>
           </div>
         </Team>
         <Researches>
           <div className="content">
-            <h2>RESEARCH <span>AREAS</span></h2>
+            <h2>{translate.RESEARCH_EN} <span>{translate.AREAS}</span> {translate.OF} {translate.RESEARCH_PT}</h2>
             <div className="boxes">
               <div className="box">
-                <h3>Domains</h3>
+                <h3>{translate.DOMAIN}</h3>
                 <ul>
-                  <li>Urban Centers</li>
-                  <li>Science and Academy</li>
+                  <li>{translate.URBAN_CENTER}</li>
+                  <li>{translate.ACADEMY}</li>
                 </ul>
-                <a href="\research-areas">Know More</a>
+                <a href="\research-areas"> {translate.KNOW_MORE}</a>
               </div>
               <div className="box">
-                <h3>Areas</h3>
+                <h3>{translate.AREAS}</h3>
                 <ul>
-                  <li>Intelligent Ecosystems</li>
-                  <li>Sensing and Monitoring</li>
-                  <li>Pattern Recognition</li>
-                  <li>Data Engineering and Semantic Treatment</li>
+                  <li>{translate.INTEL_ECO}</li>
+                  <li>{translate.SENSING_MONITORING}</li>
+                  <li>{translate.PATTERN_RECOGNITION}</li>
+                  <li>{translate.DATA_ENGINEERING}</li>
                 </ul>
-                <a href="\research-areas\#areas-id">Know More</a>
+                <a href="\research-areas\#areas-id">{translate.KNOW_MORE}</a>
               </div>
             </div>
           </div>
         </Researches>
         <Projects>
           <div className="content">
-            <h2>OUR <span>PROJECTS</span></h2>
+            <h2>{translate.OUR_CONTACT} <span>{translate.PROJECTS}</span></h2>
             <div className="newsBox">
               <div className="news">
                 <img src="/images/news1.png" alt="News 1 Image" />
