@@ -4,6 +4,7 @@ import Hero from '../components/Hero/Hero'
 import { Container, Presentation, Projects, Researches, Team } from '../styles/pages/Home'
 import en from '../assets/en'
 import pt from '../assets/pt'
+import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 const Home: React.FC = () => {
@@ -21,7 +22,7 @@ const Home: React.FC = () => {
           <div className='about'>
             <h2>{translate.LAB_CORES_TEXT}<span>Big Social Data</span></h2>
             <p>{translate.LAB_CORES_PROPOSAL}</p>
-            <a href='/about'>{translate.ABOUT_US}</a>
+            <Link href="/about" locale={ locale }>{translate.ABOUT_US}</Link>
           </div>
           <div className='diagram'>
             <img src="/images/cores-areas.png" alt="LabCores Working Groups" />
@@ -37,7 +38,7 @@ const Home: React.FC = () => {
               <div className='about'>
                 <h2>{translate.MEET_OUR}<span>{translate.MULTIDICIPLINARY}</span> {translate.TEAM}</h2>
                 <p>{translate.MEET_OUR_TEAM_TEXT}</p>
-                <a href='/our-team'>{translate.OUR_TEAM}</a>
+                <Link href="/our-team" locale={ locale }>{translate.OUR_TEAM}</Link>
               </div>
             </div>
           </div>
@@ -52,7 +53,7 @@ const Home: React.FC = () => {
                   <li>{translate.URBAN_CENTER}</li>
                   <li>{translate.ACADEMY}</li>
                 </ul>
-                <a href="\research-areas"> {translate.KNOW_MORE}</a>
+                <Link href="\research-areas" locale={ locale }>{translate.KNOW_MORE}</Link>
               </div>
               <div className="box">
                 <h3>{translate.AREAS}</h3>
@@ -62,7 +63,7 @@ const Home: React.FC = () => {
                   <li>{translate.PATTERN_RECOGNITION}</li>
                   <li>{translate.DATA_ENGINEERING}</li>
                 </ul>
-                <a href="\research-areas\#areas-id">{translate.KNOW_MORE}</a>
+                <Link href="\research-areas\#areas-id" locale={ locale }>{translate.KNOW_MORE}</Link>
               </div>
             </div>
           </div>
