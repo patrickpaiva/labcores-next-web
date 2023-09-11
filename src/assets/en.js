@@ -39,7 +39,7 @@ export default {
   ABOUT_4: 'I am an associate professor at the Federal University of Rio de Janeiro (UFRJ), founder and head of  Lab CORES. My research is at the intersection of Data Science and Social Computing, focusing on Big Social Data (treatment, management and knowledge extraction). In my research, I try to solve real-world problems, with a special interest in crowd dynamics at large scale events, urban problems and determine how the analysis of social networks can help in promoting wellness in neglected populations .',
   POST_DOCS: 'Postdocs',
   DOMAIN: 'Domains',
-  RESEARCH_TOPICS: 'Tópicos de Pesquisa',
+  RESEARCH_TOPICS: 'Research Topics',
   URBAN_CENTER: 'Urban Centers',
   URBAN_CENTER_1:'Scenario that characterizes applications and solutions aimed at solving problems and creating facilities in urban centers.',
   URBAN_CENTER_2:'Research Topics: Smart Cities; Crowdsensing; Opportunistic collaborations(opportunistic sensing, opportunistic networks); Urban mobility.',

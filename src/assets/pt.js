@@ -39,7 +39,7 @@ export default {
   ABOUT_4: 'Sou professora associada na Universidade Federal do Rio de Janeiro (UFRJ), fundadora e coordenadora do Lab CORES. Minha pesquisa está na interseção entre Ciência de Dados e Computação Social, com foco em Grandes Dados Sociais (tratamento, gerenciamento e extração de conhecimento). Em minha pesquisa, busco resolver problemas do mundo real, com um interesse especial na dinâmica de multidões em eventos de grande escala, problemas urbanos e determinar como a análise de redes sociais pode auxiliar na promoção do bem-estar em populações negligenciadas.',
   POST_DOCS: 'Pós-doutorados',
   DOMAIN: 'Domínios',
-  RESEARCH_TOPICS: 'Research Topics',
+  RESEARCH_TOPICS: 'Tópicos de Pesquisa',
   URBAN_CENTER: 'Centros Urbanos',
   URBAN_CENTER_1: 'Cenário que caracteriza aplicações e soluções voltadas para a resolução de problemas e criação de facilidades em centros urbanos.',
   URBAN_CENTER_2: 'Cidades Inteligentes; Crowdsensing; Colaborações Oportunísticas (sensoriamento oportunístico, redes oportunísticas); Mobilidade Urbana.',
