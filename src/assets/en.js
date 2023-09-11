@@ -8,6 +8,7 @@ export default {
   HOME: 'Home',
   ABOUT_US: 'About Us',
   OUR_TEAM: 'Our Team',
+  OUR_PROJECTS: 'Our Projects',
   RESEARCH_AREAS: 'Research Areas',
   LATEST_NEWS: 'Latest News',
   CONTACT_US: 'Contact Us',
@@ -72,5 +73,20 @@ export default {
   JONICE_DETAILS: 'Associate professor at UFRJ, founder and head of ',
   MULTIDICIPLINARY: 'multidiciplinary',
   MEET_OUR: 'Meet our ',
-  MEET_OUR_TEAM_TEXT: 'Our researchers range from postdocs to undergraduate students.'
+  MEET_OUR_TEAM_TEXT: 'Our researchers range from postdocs to undergraduate students.',
+  
+  DESCRIPTION: 'Description',
+  PROJECT_MEMBERS:'Members',
+  PROJECT_COVID_TITLE:'O impacto do virtual no real: Como o uso das redes sociais online impactaram a epidemia de COVID-19 no Brasil?',
+  PROJECT_COVID_TEXT: 'Mais do que entretenimento ou aprendizado, através das mídias sociais, podemos identificar níveis sem precedentes de engajamento e participação dos cidadãos. Esta atividade é chamada de ?sensoriamento participativo? ou ?sensoriamento-cidadão?. No sensoriamento participativo, um sensor não é necessariamente um hardware, mas pode ser um sensor virtual ou um humano interpretando dados sensoriais. Partindo da premissa de que os cidadãos utilizam as mídias sociais para relatar problemas, divulgar eventos, emitir opiniões e transmitir informações que julgam relevantes, tais informações podem ajudar no sensoriamento virtual e criar um conhecimento mais preciso sobre a cidade. Nesta proposta de projeto, cuja duração é de um ano, visamos comparar o impacto da COVID-19 no Brasil no cenário real ? como casos, óbitos, vacinação e o isolamento social ? com o cenário virtual. A principal questão de pesquisa é ?O engajamento nas mídias sociais refletiu ou impactou o comportamento real dos cidadãos brasileiros durante a epidemia de COVID-19??. Para isto, utilizaremos os dados do DATASUS e PCDaS (Plataforma de Ciência de Dados aplicada à Saúde) como fonte de dados do ?mundo real? e dados públicos oriundos das interações sociais no Twitter, Facebook e Instagram para o mapeamento das interações do ?mundo virtual?',
+  PROJECT_COVID_PARTICIPANTS: 'Jonice de Oliveira Sampaio - Coordenador, Fabio Porto - Integrante.',
+
+  PROJECT_MEMBERS:'Members',
+  PROJECT_COVID_TITLE:'O impacto do virtual no real: Como o uso das redes sociais online impactaram a epidemia de COVID-19 no Brasil?',
+  PROJECT_COVID_TEXT: 'Mais do que entretenimento ou aprendizado, através das mídias sociais, podemos identificar níveis sem precedentes de engajamento e participação dos cidadãos. Esta atividade é chamada de ?sensoriamento participativo? ou ?sensoriamento-cidadão?. No sensoriamento participativo, um sensor não é necessariamente um hardware, mas pode ser um sensor virtual ou um humano interpretando dados sensoriais. Partindo da premissa de que os cidadãos utilizam as mídias sociais para relatar problemas, divulgar eventos, emitir opiniões e transmitir informações que julgam relevantes, tais informações podem ajudar no sensoriamento virtual e criar um conhecimento mais preciso sobre a cidade. Nesta proposta de projeto, cuja duração é de um ano, visamos comparar o impacto da COVID-19 no Brasil no cenário real ? como casos, óbitos, vacinação e o isolamento social ? com o cenário virtual. A principal questão de pesquisa é ?O engajamento nas mídias sociais refletiu ou impactou o comportamento real dos cidadãos brasileiros durante a epidemia de COVID-19??. Para isto, utilizaremos os dados do DATASUS e PCDaS (Plataforma de Ciência de Dados aplicada à Saúde) como fonte de dados do ?mundo real? e dados públicos oriundos das interações sociais no Twitter, Facebook e Instagram para o mapeamento das interações do ?mundo virtual?',
+  PROJECT_COVID_PARTICIPANTS: 'Jonice de Oliveira Sampaio - Coordenador, Fabio Porto - Integrante.',
+
+  PROJECT_ORACLE_TITLE:'[Oracle] Extracting Knowledge from Big Social Data - Special Case: Pandemics & Epidemics',
+  PROJECT_ORACLE_TEXT: 'In this project, Big Social Data refers to large data volumes that relate to people interactions (with other people or things) or describe their behaviors, needs, and patterns. So, we define our research question, which is: RQ1: How to manage the massive volume of social data, envisioning the urban sensing, dealing with multiple data streams of varying data types, and different knowledge levels of users during large-scale sanitary crises, especially pandemic and epidemics? The proponent chose two real scenarios to apply this research: COVID-19 and depression..',
+  PROJECT_ORACLE_PARTICIPANTS: 'Jonice de Oliveira Sampaio - Coordenador, Fabio Porto - Integrante.'
 }
