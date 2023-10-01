@@ -41,6 +41,36 @@ const ResearchAreas: React.FC = () => {
           </p>
       </div>
 
+      <div className="project">
+          <h3>{translate.PROJECT_PIBIC_TITLE}</h3>
+          <p>
+            <b>{translate.DESCRIPTION}:</b> {translate.PROJECT_PIBIC_TEXT}
+            <br/>
+            <br/>
+            <strong>{translate.PROJECT_MEMBERS}</strong>: {translate.PROJECT_PIBIC_PARTICIPANTS}
+          </p>
+      </div>
+
+      <div className="project">
+          <h3>{translate.PROJECT_CAPES_TITLE}</h3>
+          <p>
+            <b>{translate.DESCRIPTION}:</b> {translate.PROJECT_CAPES_TEXT}
+            <br/>
+            <br/>
+            <strong>{translate.PROJECT_MEMBERS}</strong>: {translate.PROJECT_CAPES_PARTICIPANTS}
+          </p>
+      </div>
+
+      <div className="project">
+          <h3>{translate.PROJECT_COOP_TITLE}</h3>
+          <p>
+            <b>{translate.DESCRIPTION}:</b> {translate.PROJECT_COOP_TEXT}
+            <br/>
+            <br/>
+            <strong>{translate.PROJECT_MEMBERS}</strong>: {translate.PROJECT_COOP_PARTICIPANTS}
+          </p>
+      </div>
+
       </main>
       <Footer/>
     </Container>
