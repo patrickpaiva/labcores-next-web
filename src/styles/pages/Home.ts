@@ -311,7 +311,6 @@ export const Researches = styled.div`
 export const Projects = styled.div`
   width: 100vw;
   max-width: 100%;
-  height: 600px;
   background-color: #676363;
   display: flex;
   flex-direction: column;
@@ -332,6 +331,7 @@ export const Projects = styled.div`
     h2 {
       font-size: 3.2rem;
       font-weight: 300;
+      padding: 20px 0;
 
       span {
         color: ${(props) => props.theme.colors.green};

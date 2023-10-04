@@ -11,6 +11,8 @@ export default {
   OUR_PROJECTS: 'Our Projects',
   RESEARCH_AREAS: 'Research Areas',
   LATEST_NEWS: 'Latest News',
+  LATEST: 'Latest',
+  NEWS: 'News',
   CONTACT_US: 'Contact Us',
   CONTACT: 'contacts',
   OUR_CONTACT: 'Our',
@@ -74,7 +76,7 @@ export default {
   MULTIDICIPLINARY: 'multidiciplinary',
   MEET_OUR: 'Meet our ',
   MEET_OUR_TEAM_TEXT: 'Our researchers range from postdocs to undergraduate students.',
-  
+
   DESCRIPTION: 'Description',
   PROJECT_MEMBERS:'Members',
   PROJECT_COVID_TITLE:'O impacto do virtual no real: Como o uso das redes sociais online impactaram a epidemia de COVID-19 no Brasil?',

@@ -6,6 +6,7 @@ import en from '../assets/en'
 import pt from '../assets/pt'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import { InstaFeed } from '../components/InstaFeed/InstaFeed'
 
 const Home: React.FC = () => {
 
@@ -53,7 +54,7 @@ const Home: React.FC = () => {
                   <li>{translate.URBAN_CENTER}</li>
                   <li>{translate.ACADEMY}</li>
                 </ul>
-                <Link href="\research-areas" locale={ locale }>{translate.KNOW_MORE}</Link>
+                <Link href="/research-areas" locale={ locale }>{translate.KNOW_MORE}</Link>
               </div>
               <div className="box">
                 <h3>{translate.AREAS}</h3>
@@ -63,13 +64,17 @@ const Home: React.FC = () => {
                   <li>{translate.PATTERN_RECOGNITION}</li>
                   <li>{translate.DATA_ENGINEERING}</li>
                 </ul>
-                <Link href="\research-areas\#areas-id" locale={ locale }>{translate.KNOW_MORE}</Link>
+                <Link href="/research-areas/#areas-id" locale={ locale }>{translate.KNOW_MORE}</Link>
               </div>
             </div>
           </div>
         </Researches>
         <Projects>
           <div className="content">
+            <h2>{translate.LATEST} <span>{translate.NEWS}</span></h2>
+          </div>
+          <InstaFeed />
+          {/* <div className="content">
             <h2>{translate.OUR_CONTACT} <span>{translate.PROJECTS}</span></h2>
             <div className="newsBox">
               <div className="news">
@@ -91,7 +96,7 @@ const Home: React.FC = () => {
                 <a href="\">Know More</a>
               </div>
             </div>
-          </div>
+          </div> */}
         </Projects>
       </main>
       <Footer />

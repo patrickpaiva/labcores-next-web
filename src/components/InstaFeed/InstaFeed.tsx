@@ -1,0 +1,37 @@
+import axios from 'axios'
+import { useEffect, useState } from 'react';
+import { Container } from './styles';
+import { InstagramEmbed } from 'react-social-media-embed';
+
+interface IFeedItem {
+  id: string;
+  media_type: "IMAGE" | "VIDEO"
+  media_url: string;
+  permalink: string;
+}
+
+export function InstaFeed() {
+  const [feedList, setFeedList] = useState<IFeedItem[]>([]);
+
+  async function getInstaFeed() {
+    const token = "IGQWRQSjhUZAXhySU1PQXNrTGFkZAktxTlh4N3h6V0FmQXBVZAU1GcElhbGxKbVE4SGYtaTZAGeDRQTXViWHBBLTlxSzlIMnoxb1BCdzlNX2RfZAE9PLTRCQ1ZAnYUpiMVhlUTlSdXNGeUhxWEtWSVRFeFQ5d05jUlloeWcZD";
+    const fields = "media_url,media_type,permalink";
+    const url = `https://graph.instagram.com/me/media?access_token=${token}&fields=${fields}`;
+
+    const { data } = await axios.get(url);
+    setFeedList(data.data.slice(2,6));
+    console.log(data.data.slice(2,6))
+  }
+
+  useEffect(() => {
+    getInstaFeed()
+  }, []);
+
+  return (
+    <Container>
+      {feedList.map(item => (
+          <InstagramEmbed key={item.id} url={item.permalink} width={326} />
+      ))}
+    </Container>
+  )
+}
