@@ -14,7 +14,7 @@ export function InstaFeed() {
   const [feedList, setFeedList] = useState<IFeedItem[]>([]);
 
   async function getInstaFeed() {
-    const token = "IGQWRQSjhUZAXhySU1PQXNrTGFkZAktxTlh4N3h6V0FmQXBVZAU1GcElhbGxKbVE4SGYtaTZAGeDRQTXViWHBBLTlxSzlIMnoxb1BCdzlNX2RfZAE9PLTRCQ1ZAnYUpiMVhlUTlSdXNGeUhxWEtWSVRFeFQ5d05jUlloeWcZD";
+    const token = process.env.NEXT_PUBLIC_INSTA_FEED_TOKEN;
     const fields = "media_url,media_type,permalink";
     const url = `https://graph.instagram.com/me/media?access_token=${token}&fields=${fields}`;
 
