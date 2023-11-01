@@ -63,6 +63,8 @@ const Home: React.FC = () => {
                   <li>{translate.SENSING_MONITORING}</li>
                   <li>{translate.PATTERN_RECOGNITION}</li>
                   <li>{translate.DATA_ENGINEERING}</li>
+                  <li>{translate.COMPUTATIONAL_ETHICS}</li>
+                  <li>{translate.TOXIC_DIGITAL_CONTENT}</li>
                 </ul>
                 <Link href="/research-areas/#areas-id" locale={ locale }>{translate.KNOW_MORE}</Link>
               </div>

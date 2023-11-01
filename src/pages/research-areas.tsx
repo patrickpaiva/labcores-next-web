@@ -85,6 +85,28 @@ const ResearchAreas: React.FC = () => {
             <strong>{translate.RESEARCH_TOPICS}</strong>: {translate.DATA_ENGINEERING_3}
           </p>
         </div>
+        <div className="area" id="ethics">
+          <h3>{translate.COMPUTATIONAL_ETHICS}</h3>
+          <p>
+            <img src="/images/Ethics.jpg" alt="Computational Ethic" />
+            {translate.COMPUTATIONAL_ETHICS_1}
+            <br />
+            
+            <br /><br />
+            <strong>{translate.RESEARCH_TOPICS}</strong>: {translate.COMPUTATIONAL_ETHICS_2}
+          </p>
+        </div>
+        <div className="area" id="data">
+          <h3>{translate.TOXIC_DIGITAL_CONTENT}</h3>
+          <p>
+            <img src="/images/toxic_content.jpg" alt="Data Engineering and Semantic Treatment" />
+            {translate.TOXIC_DIGITAL_CONTENT_1}
+            <br />
+            
+            <br /><br />
+            <strong>{translate.RESEARCH_TOPICS}</strong>: {translate.TOXIC_DIGITAL_CONTENT_2}
+          </p>
+        </div>
       </main>
       <Footer/>
     </Container>
