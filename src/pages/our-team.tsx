@@ -91,6 +91,28 @@ const OurTeam: React.FC = () => {
               })}
             </div>
           </TeamContainer>
+          <TeamContainer>
+            <h3>{translate.COLLAB}</h3>
+            <button className="chevronLeft" onClick={(e) => handleLeftClick(e, 1)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
+            <button className="chevronRight" onClick={(e) => handleRightClick(e, 1)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
+            <div className="teamContent" ref={(item) => sliders.current[1] = item}>
+              {team.colab.map((item, index) => {
+                  return (
+                    <div className="member" key={index}>
+                      <img src={item.photo} alt={item.name} />
+                      <p className="name">{item.name}</p>
+                      <ul>
+                        {item.areas.map((area, id) => {
+                          return (
+                            <li key={id}>{area}</li>
+                          )
+                        })}
+                      </ul>
+                    </div>
+                  )
+              })}
+            </div>
+          </TeamContainer>
         </div>
       </main>
       <Footer />

@@ -103,6 +103,7 @@ export default {
 
   PROJECT_COOP_TITLE:'Cooperação científica UFRJ e UEVE/Paris Saclay',
   PROJECT_COOP_TEXT:' Acordo de cooperação científica visando a contribuição à pesquisa brasileira entre a UFRJ, através do Departamento de Ciência da Computação, e da Université d "Évry-Val-d" Essonne (UEVE)/Paris Saclay, através do COSMO/IBISC. As pesquisas serão na área de Computação Social, Segurança, Privacidade e Web Semântica.',
-  PROJECT_COOP_PARTICIPANTS:'Jonice de Oliveira Sampaio - Coordenador, Thiago Moreira - Integrante, Nazim Agoulmine - Integrante'
+  PROJECT_COOP_PARTICIPANTS:'Jonice de Oliveira Sampaio - Coordenador, Thiago Moreira - Integrante, Nazim Agoulmine - Integrante',
+  COLLAB: 'Colaboradores'
 
 }

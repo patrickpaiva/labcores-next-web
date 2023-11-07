@@ -107,5 +107,6 @@ PROJECT_CAPES_PARTICIPANTS: 'Guilherme Horta Travassos - Coordinator, Jonice de 
 
 PROJECT_COOP_TITLE: 'Scientific Cooperation UFRJ and UEVE/Paris Saclay',
 PROJECT_COOP_TEXT: 'Scientific cooperation agreement aiming to contribute to Brazilian research between UFRJ, through the Department of Computer Science, and the Université d "Évry-Val-d" Essonne (UEVE)/Paris Saclay, through COSMO/IBISC. The research will be in the area of Social Computing, Security, Privacy, and Semantic Web.',
-PROJECT_COOP_PARTICIPANTS: 'Jonice de Oliveira Sampaio - Coordinator, Thiago Moreira - Member, Nazim Agoulmine - Member'
+PROJECT_COOP_PARTICIPANTS: 'Jonice de Oliveira Sampaio - Coordinator, Thiago Moreira - Member, Nazim Agoulmine - Member',
+COLLAB: 'Collaborators'
 }
