@@ -176,7 +176,7 @@ export const TeamContainer = styled.div`
 
       .name {
         text-transform: uppercase;
-        font-size: 2.2rem;
+        font-size: 1.7rem;
         margin-bottom: 8px;
         text-align: center;
         height: 56px;

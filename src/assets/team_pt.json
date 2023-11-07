@@ -1,81 +1,183 @@
 {
-  "postdocs": [
+  "mscs": [
     {
-      "name": "Livia Ruback",
-      "photo": "/images/livia-ruback.png",
-      "areas": ["Sensoriamento e Monitoramento", "Identificação de discurso de ódio"]
-    },
-    {
-      "name": "Danilo Carvalho",
-      "photo": "/images/danilo-carvalho.png",
-      "areas": ["Reconhecimento de Padrões", "Métodos de Tradução Automática"]
-    },
-    {
-      "name": "Claudia Cappeli",
-      "photo": "/images/claudia-cappeli.png",
-      "areas": ["Ecossistemas Inteligentes", "Transparência e Democracia Digital"]
-    }
-  ],
-  "dscs": [
-    {
-      "name": "Anderson Cordeiro",
-      "photo": "/images/anderson-cordeiro.jpg",
-      "areas": ["Sensoriamento e Monitoramento", "Transparência e Combate à Desinformação"]
-    },
-    {
-      "name": "Diogo Nolasco",
-      "photo": "/images/diogo-nolasco.jpg",
-      "areas": ["Reconhecimento de Padrões", "Gestão de Dados"]
-    },
-    {
-      "name": "Fabrício Firmino",
-      "photo": "/images/fabricio-firmino.jpg",
-      "areas": ["Reconhecimento de Padrões", "Gestão de Dados"]
-    },
-    {
-      "name": "Jamile Santos",
-      "photo": "/images/jamile-santos.jpg",
-      "areas": ["Transparência e Combate à Desinformação", "Sensoriamento e Monitoramento"]
-    },
-    {
-      "name": "Jivago Medeiros",
-      "photo": "/images/jivago-medeiros.jpg",
-      "areas": ["Gestão de Dados", "Ecossistemas Inteligentes"]
-    },
-    {
-      "name": "Luís F. Monsores",
-      "photo": "/images/luis-monsores.jpg",
-      "areas": ["Sensoriamento e Monitoramento"]
-    },
-    {
-      "name": "Luiz Paulo Carvalho",
-      "photo": "/images/luiz-paulo-carvalho.jpg",
-      "areas": ["Transparência e Combate à Desinformação", "Sensoriamento e Monitoramento"]
-    },
-    {
-      "name": "Marcus Gonçalves",
+      "name": "Marcos Paulo Moraes",
       "photo": "/images/blank-photo.png",
-      "areas": ["Gestão de Dados", "Ecossistemas Inteligentes"]
+      "areas": ["Conteúdo Tóxico Digital", "Reconhecimento de Padrões"]
     },
     {
-      "name": "Paulo Tostes",
+      "name": "Leonardo Herdy Marinho",
       "photo": "/images/blank-photo.png",
       "areas": ["Ecossistemas Inteligentes"]
     },
     {
-      "name": "Silas Filho",
-      "photo": "/images/silas-filho.jpg",
-      "areas": ["Sensoriamento e Monitoramento", "Reconhecimento de Padrões"]
+      "name": "Paulo Freitas Silva Júnior",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Sensoriamento e Monitoramento", "Engenharia de Dados"]
     },
     {
-      "name": "Sirius Silva",
-      "photo": "/images/sirius-silva.jpg",
-      "areas": ["Transparência e Combate à Desinformação"]
+      "name": "Caio Zava Ferreira",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Conteúdo Tóxico Digital", "Reconhecimento de Padrões"]
+    },
+    {
+      "name": "Larissa da Silva Paiva",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Sensoriamento e Monitoramento", "Ecossistemas Inteligentes"]
+    },
+    {
+      "name": "Eliel Roger da Silva",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Sensoriamento e Monitoramento", "Ecossistemas Inteligentes"]
+    }
+  ],
+  "dscs": [
+    {
+      "name": "Rodrigo Pereira dos Santos",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Ecossistemas Inteligentes"]
+    },
+    {
+      "name": "Mônica Ferreira da Silva",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Ecossistemas Inteligentes"]
+    },
+    {
+      "name": "Claudia Cappeli",
+      "photo": "/images/claudia-cappeli.png",
+      "areas": ["Ecossistemas Inteligentes"]
+    },
+    {
+      "name": "Danilo Carvalho",
+      "photo": "/images/danilo-carvalho.png",
+      "areas": ["Conteúdo Tóxico Digital"]
+    },
+    {
+      "name": "Livia Ruback",
+      "photo": "/images/livia-ruback.png",
+      "areas": ["Conteúdo Tóxico Digital"]
+    },
+    {
+      "name": "Anderson Cordeiro Charles",
+      "photo": "/images/anderson-cordeiro.jpg",
+      "areas": ["Sensoriamento e Monitoramento", "Transparência e Combate à Desinformação"]
+    },
+    {
+      "name": "Diogo Nolasco Ferreira Sousa",
+      "photo": "/images/diogo-nolasco.jpg",
+      "areas": ["Reconhecimento de Padrões", "Engenharia de Dados"]
+    },
+    {
+      "name": "LUIS FERNANDO MONSORES PASSOS MAIA",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Sensoriamento e Monitoramento", "Ecossistemas Inteligentes"]
+    },
+    {
+      "name": "Luiz Paulo Carvalho da Silva",
+      "photo": "/images/luiz-paulo-carvalho.jpg",
+      "areas": ["Transparência e Combate à Desinformação", "Sensoriamento e Monitoramento"]
+    },
+    {
+      "name": "Marcus Vinicius Ferreira Gonçalves",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Engenharia de Dados", "Ecossistemas Inteligentes"]
+    },
+    {
+      "name": "PAULO DAVID DE JESUS TOSTES DOS SANTOS",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Ecossistemas Inteligentes"]
+    },
+    {
+      "name": "Jamile Santos dos Santos",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Conteúdo Tóxico Digital", "Sensoriamento e Monitoramento"]
+    },
+    {
+      "name": "SIRIUS THADEU FERREIRA DA SILVA",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Sensoriamento e Monitoramento", "Transparência e Combate à Desinformação"]
+    }
+  ],
+  "colab": [
+    {
+      "name": "Leonardo Herdy Marinho",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Ecossistemas Inteligentes"]
+    },
+    {
+      "name": "Livia Ruback",
+      "photo": "/images/livia-ruback.png",
+      "areas": ["Conteúdo Tóxico Digital"]
+    },
+    {
+      "name": "Danilo Carvalho",
+      "photo": "/images/danilo-carvalho.png",
+      "areas": ["Conteúdo Tóxico Digital"]
+    },
+    {
+      "name": "Claudia Cappeli",
+      "photo": "/images/claudia-cappeli.png",
+      "areas": ["Ecossistemas Inteligentes"]
+    },
+    {
+      "name": "Mônica Ferreira da Silva",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Ecossistemas Inteligentes"]
+    },
+    {
+      "name": "Rodrigo Pereira dos Santos",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Ecossistemas Inteligentes"]
+    },
+    {
+      "name": "Tiago França",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Sensoriamento e Monitoramento"]
+    },
+    {
+      "name": "Silas Lima Filho",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Sensoriamento e Monitoramento"]
+    },
+    {
+      "name": "Rodrigo dos Santos Oliveira",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Ética Computacional", "Ecossistemas Inteligentes"]
+    },
+    {
+      "name": "Fabrício Firmino de Faria",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Reconhecimento de Padrões"]
     },
     {
       "name": "Vladimir Fagundes",
-      "photo": "/images/vladimir-fagundes.jpg",
-      "areas": ["Ecossistemas Inteligentes", "Transparência e Combate à Desinformação"]
+      "photo": "/images/blank-photo.png",
+      "areas": ["Ecossistemas Inteligentes"]
+    },
+    {
+      "name": "Fabio Porto",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Engenharia de Dados"]
+    },
+    {
+      "name": "Daniel Alfarro",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Reconhecimento de Padrões"]
+    },
+    {
+      "name": "Flávia Santoro",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Ética Computacional"]
+    },
+    {
+      "name": "Rafael Escalfoni",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Ecossistemas Inteligentes"]
+    },
+    {
+      "name": "Marcos Arrais",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Ecossistemas Inteligentes"]
     }
   ]
 }

@@ -48,11 +48,11 @@ const OurTeam: React.FC = () => {
             </div>
           </div>
           <TeamContainer>
-            <h3>{translate.POST_DOCS}</h3>
+            <h3>D.Sc</h3>
             <button className="chevronLeft" onClick={(e) => handleLeftClick(e, 0)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
             <button className="chevronRight" onClick={(e) => handleRightClick(e, 0)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
             <div className="teamContent" ref={(item) => sliders.current[0] = item}>
-              {team.postdocs.map((item, index) => {
+              {team.dscs.map((item, index) => {
                 return (
                   <div className="member" key={index}>
                     <img src={item.photo} alt={item.name} />
@@ -70,11 +70,11 @@ const OurTeam: React.FC = () => {
             </div>
           </TeamContainer>
           <TeamContainer>
-            <h3>D.Sc</h3>
+            <h3>M.Sc</h3>
             <button className="chevronLeft" onClick={(e) => handleLeftClick(e, 1)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
             <button className="chevronRight" onClick={(e) => handleRightClick(e, 1)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
             <div className="teamContent" ref={(item) => sliders.current[1] = item}>
-              {team.dscs.map((item, index) => {
+              {team.mscs.map((item, index) => {
                   return (
                     <div className="member" key={index}>
                       <img src={item.photo} alt={item.name} />

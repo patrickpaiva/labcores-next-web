@@ -1,81 +1,183 @@
 {
-  "postdocs": [
+  "mscs": [
     {
-      "name": "Livia Ruback",
-      "photo": "/images/livia-ruback.png",
-      "areas": ["Sensing and Monitoring", "Identification of hate speech"]
-    },
-    {
-      "name": "Danilo Carvalho",
-      "photo": "/images/danilo-carvalho.png",
-      "areas": ["Pattern Recognition", "Machine translation methods"]
-    },
-    {
-      "name": "Claudia Cappeli",
-      "photo": "/images/claudia-cappeli.png",
-      "areas": ["Intelligent Ecosystems", "Transparency and Digital Democracy"]
-    }
-  ],
-  "dscs": [
-    {
-      "name": "Anderson Cordeiro",
-      "photo": "/images/anderson-cordeiro.jpg",
-      "areas": ["Sensing and Monitoring", "Transparency and Tackling Disinformation"]
-    },
-    {
-      "name": "Diogo Nolasco",
-      "photo": "/images/diogo-nolasco.jpg",
-      "areas": ["Pattern Recognition", "Data Management"]
-    },
-    {
-      "name": "Fabrício Firmino",
-      "photo": "/images/fabricio-firmino.jpg",
-      "areas": ["Pattern Recognition", "Data Management"]
-    },
-    {
-      "name": "Jamile Santos",
-      "photo": "/images/jamile-santos.jpg",
-      "areas": ["Transparency and Tackling Disinformation", "Sensing and Monitoring"]
-    },
-    {
-      "name": "Jivago Medeiros",
-      "photo": "/images/jivago-medeiros.jpg",
-      "areas": ["Data Management", "Intelligent Ecosystems"]
-    },
-    {
-      "name": "Luís F. Monsores",
-      "photo": "/images/luis-monsores.jpg",
-      "areas": ["Sensing and Monitoring"]
-    },
-    {
-      "name": "Luiz Paulo Carvalho",
-      "photo": "/images/luiz-paulo-carvalho.jpg",
-      "areas": ["Transparency and Tackling Disinformation", "Sensing and Monitoring"]
-    },
-    {
-      "name": "Marcus Gonçalves",
+      "name": "Marcos Paulo Moraes",
       "photo": "/images/blank-photo.png",
-      "areas": ["Data Management", "Intelligent Ecosystems"]
+      "areas": ["Digital Toxic Content", "Pattern Recognition"]
     },
     {
-      "name": "Paulo Tostes",
+      "name": "Leonardo Herdy Marinho",
       "photo": "/images/blank-photo.png",
       "areas": ["Intelligent Ecosystems"]
     },
     {
-      "name": "Silas Filho",
-      "photo": "/images/silas-filho.jpg",
-      "areas": ["Sensing and Monitoring", "Pattern Recognition"]
+      "name": "Paulo Freitas Silva Júnior",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Sensing and Monitoring", "Data Engineering"]
     },
     {
-      "name": "Sirius Silva",
-      "photo": "/images/sirius-silva.jpg",
-      "areas": ["Transparency and Tackling Disinformation"]
+      "name": "Caio Zava Ferreira",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Digital Toxic Content", "Pattern Recognition"]
+    },
+    {
+      "name": "Larissa da Silva Paiva",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Sensing and Monitoring", "Intelligent Ecosystems"]
+    },
+    {
+      "name": "Eliel Roger da Silva",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Sensing and Monitoring", "Intelligent Ecosystems"]
+    }
+  ],
+  "dscs": [
+    {
+      "name": "Rodrigo Pereira dos Santos",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Intelligent Ecosystems"]
+    },
+    {
+      "name": "Mônica Ferreira da Silva",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Intelligent Ecosystems"]
+    },
+    {
+      "name": "Claudia Cappeli",
+      "photo": "/images/claudia-cappeli.png",
+      "areas": ["Intelligent Ecosystems"]
+    },
+    {
+      "name": "Danilo Carvalho",
+      "photo": "/images/danilo-carvalho.png",
+      "areas": ["Digital Toxic Content"]
+    },
+    {
+      "name": "Livia Ruback",
+      "photo": "/images/livia-ruback.png",
+      "areas": ["Digital Toxic Content"]
+    },
+    {
+      "name": "Anderson Cordeiro Charles",
+      "photo": "/images/anderson-cordeiro.jpg",
+      "areas": ["Sensing and Monitoring", "Transparency and Disinformation Combat"]
+    },
+    {
+      "name": "Diogo Nolasco Ferreira Sousa",
+      "photo": "/images/diogo-nolasco.jpg",
+      "areas": ["Pattern Recognition", "Data Engineering"]
+    },
+    {
+      "name": "LUIS FERNANDO MONSORES PASSOS MAIA",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Sensing and Monitoring", "Intelligent Ecosystems"]
+    },
+    {
+      "name": "Luiz Paulo Carvalho da Silva",
+      "photo": "/images/luiz-paulo-carvalho.jpg",
+      "areas": ["Transparency and Disinformation Combat", "Sensing and Monitoring"]
+    },
+    {
+      "name": "Marcus Vinicius Ferreira Gonçalves",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Data Engineering", "Intelligent Ecosystems"]
+    },
+    {
+      "name": "PAULO DAVID DE JESUS TOSTES DOS SANTOS",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Intelligent Ecosystems"]
+    },
+    {
+      "name": "Jamile Santos dos Santos",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Digital Toxic Content", "Sensing and Monitoring"]
+    },
+    {
+      "name": "SIRIUS THADEU FERREIRA DA SILVA",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Sensing and Monitoring", "Transparency and Disinformation Combat"]
+    }
+  ],
+  "colab": [
+    {
+      "name": "Leonardo Herdy Marinho",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Intelligent Ecosystems"]
+    },
+    {
+      "name": "Livia Ruback",
+      "photo": "/images/livia-ruback.png",
+      "areas": ["Digital Toxic Content"]
+    },
+    {
+      "name": "Danilo Carvalho",
+      "photo": "/images/danilo-carvalho.png",
+      "areas": ["Digital Toxic Content"]
+    },
+    {
+      "name": "Claudia Cappeli",
+      "photo": "/images/claudia-cappeli.png",
+      "areas": ["Intelligent Ecosystems"]
+    },
+    {
+      "name": "Mônica Ferreira da Silva",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Intelligent Ecosystems"]
+    },
+    {
+      "name": "Rodrigo Pereira dos Santos",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Intelligent Ecosystems"]
+    },
+    {
+      "name": "Tiago França",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Sensing and Monitoring"]
+    },
+    {
+      "name": "Silas Lima Filho",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Sensing and Monitoring"]
+    },
+    {
+      "name": "Rodrigo dos Santos Oliveira",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Computational Ethics", "Intelligent Ecosystems"]
+    },
+    {
+      "name": "Fabrício Firmino de Faria",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Pattern Recognition"]
     },
     {
       "name": "Vladimir Fagundes",
-      "photo": "/images/vladimir-fagundes.jpg",
-      "areas": ["Intelligent Ecosystems", "Transparency and Tackling Disinformation"]
+      "photo": "/images/blank-photo.png",
+      "areas": ["Intelligent Ecosystems"]
+    },
+    {
+      "name": "Fabio Porto",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Data Engineering"]
+    },
+    {
+      "name": "Daniel Alfarro",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Pattern Recognition"]
+    },
+    {
+      "name": "Flávia Santoro",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Computational Ethics"]
+    },
+    {
+      "name": "Rafael Escalfoni",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Intelligent Ecosystems"]
+    },
+    {
+      "name": "Marcos Arrais",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Intelligent Ecosystems"]
     }
   ]
 }
