@@ -19,8 +19,7 @@ export function InstaFeed() {
     const url = `https://graph.instagram.com/me/media?access_token=${token}&fields=${fields}`;
 
     const { data } = await axios.get(url);
-    setFeedList(data.data.slice(2,6));
-    console.log(data.data.slice(2,6))
+    setFeedList(data.data.slice(0,4));
   }
 
   useEffect(() => {

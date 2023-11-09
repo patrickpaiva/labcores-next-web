@@ -39,9 +39,9 @@ const DropDownMenu: React.FC<DropDownMenuProps> = ({ isOpen, onClick }) => {
         <div>
           <Link href="/research-areas" locale={ locale }>{translate.RESEARCH_AREAS}</Link>
         </div>
-        <div>
+        {/* <div>
           <Link href="/latest-news" locale={ locale }>{translate.LATEST_NEWS}</Link>
-        </div>
+        </div> */}
         <div>
           <Link href="/contact" locale={ locale }>{translate.CONTACT_US}</Link>
         </div>
