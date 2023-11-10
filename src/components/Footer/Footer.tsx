@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
             <p>{translate.SOCIAL_MEDIA}</p>
             <div className="socialLogos">
               <a href="https://www.youtube.com/channel/UCF39iCywI12ywKXXFyW1Ouw" target="_blank"><img src="/images/youtube.png" alt="YouTube logo" /></a>
-              <a href="https://www.facebook.com/LabCORES/" target="_blank"><img src="/images/instagram.png" alt="instagram logo" /></a>
+              <a href="https://www.instagram.com/labcores.ufrj" target="_blank"><img src="/images/instagram.png" alt="instagram logo" /></a>
               <a href="https://www.facebook.com/LabCORES/" target="_blank"><img src="/images/facebook.png" alt="facebook logo" /></a>
             </div>
           </div>

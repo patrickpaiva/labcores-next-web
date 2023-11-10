@@ -87,6 +87,35 @@ export const Container = styled.div`
 
 `
 
+export const Project = styled.div`
+
+  width: 100%;
+  max-width: 940px;
+  padding: 0 20px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+
+  h3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  p {
+    max-width: 90%;
+    margin-bottom: 12px;
+
+    img {
+      max-width:350px ;
+      float: left;
+      margin-right: 16px;
+    }
+  }
+
+`
+
 export const ContentLeft = styled.div`
   width: 100%;
   max-width: 940px;

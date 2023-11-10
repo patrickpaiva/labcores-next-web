@@ -76,29 +76,6 @@ const Home: React.FC = () => {
             <h2>{translate.LATEST} <span>{translate.NEWS}</span></h2>
           </div>
           <InstaFeed />
-          {/* <div className="content">
-            <h2>{translate.OUR_CONTACT} <span>{translate.PROJECTS}</span></h2>
-            <div className="newsBox">
-              <div className="news">
-                <img src="/images/news1.png" alt="News 1 Image" />
-                <h3>News Sample</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <a href="\">Know More</a>
-              </div>
-              <div className="news">
-                <img src="/images/news2.png" alt="News 2 Image" />
-                <h3>News Sample</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <a href="\">Know More</a>
-              </div>
-              <div className="news">
-                <img src="/images/news3.png" alt="News 3 Image" />
-                <h3>News Sample</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <a href="\">Know More</a>
-              </div>
-            </div>
-          </div> */}
         </Projects>
       </main>
       <Footer />
