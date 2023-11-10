@@ -2,10 +2,11 @@ import React from 'react'
 import Banner from '../components/Banner/Banner'
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
-import { Container, ContentLeft, ContentRight } from '../styles/pages/projects'
+import { Container, Project } from '../styles/pages/projects'
 import theme from '../styles/theme'
 import en from '../assets/en'
 import pt from '../assets/pt'
+import projects from '../assets/projects.json'
 import { useRouter } from 'next/router'
 
 const ResearchAreas: React.FC = () => {
@@ -19,62 +20,24 @@ const ResearchAreas: React.FC = () => {
       <Header/>
       <Banner title={translate.OUR_PROJECTS} bannerColor={theme.colors.blue} />
       <main>
-
         <h2>{translate.PROJECTS}</h2>
-        <div className="project">
-          <h3>{translate.PROJECT_COVID_TITLE}</h3>
-          <p>
-            <b>{translate.DESCRIPTION}:</b> {translate.PROJECT_COVID_TEXT}
-            <br/>
-            <br/>
-            <strong>{translate.PROJECT_MEMBERS}</strong>: {translate.PROJECT_COVID_PARTICIPANTS}
-          </p>
-        </div>
-
-      <div className="project">
-          <h3>{translate.PROJECT_ORACLE_TITLE}</h3>
-          <p>
-            <b>{translate.DESCRIPTION}:</b> {translate.PROJECT_ORACLE_TEXT}
-            <br/>
-            <br/>
-            <strong>{translate.PROJECT_MEMBERS}</strong>: {translate.PROJECT_ORACLE_PARTICIPANTS}
-          </p>
-      </div>
-
-      <div className="project">
-          <h3>{translate.PROJECT_PIBIC_TITLE}</h3>
-          <p>
-            <b>{translate.DESCRIPTION}:</b> {translate.PROJECT_PIBIC_TEXT}
-            <br/>
-            <br/>
-            <strong>{translate.PROJECT_MEMBERS}</strong>: {translate.PROJECT_PIBIC_PARTICIPANTS}
-          </p>
-      </div>
-
-      <div className="project">
-          <h3>{translate.PROJECT_CAPES_TITLE}</h3>
-          <p>
-            <b>{translate.DESCRIPTION}:</b> {translate.PROJECT_CAPES_TEXT}
-            <br/>
-            <br/>
-            <strong>{translate.PROJECT_MEMBERS}</strong>: {translate.PROJECT_CAPES_PARTICIPANTS}
-          </p>
-      </div>
-
-      <div className="project">
-          <h3>{translate.PROJECT_COOP_TITLE}</h3>
-          <p>
-            <b>{translate.DESCRIPTION}:</b> {translate.PROJECT_COOP_TEXT}
-            <br/>
-            <br/>
-            <strong>{translate.PROJECT_MEMBERS}</strong>: {translate.PROJECT_COOP_PARTICIPANTS}
-          </p>
-      </div>
-
+        {projects.projects.map(project => {
+          return (
+            <Project>
+              <h3>{locale === 'pt'? project.pt.title : project.en.title}</h3>
+              <p>
+                <b>{translate.DESCRIPTION}:</b> {locale === 'pt'? project.pt.description : project.en.description}
+                <br/>
+                <br/>
+                <strong>{translate.PROJECT_MEMBERS}</strong>: {locale === 'pt'? project.pt.people : project.en.people}
+              </p>
+            </Project>
+          )
+        })}
       </main>
       <Footer/>
     </Container>
-    
+
   )
 }
 
