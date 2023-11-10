@@ -232,7 +232,7 @@ export const Researches = styled.div`
 
       .box {
         width: 400px;
-        height: 200px;
+        height: 250px;
         padding: 16px 40px;
         border-radius: 10px;
         background-color: #0D6892;
