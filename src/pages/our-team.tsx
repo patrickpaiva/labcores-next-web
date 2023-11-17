@@ -93,9 +93,9 @@ const OurTeam: React.FC = () => {
           </TeamContainer>
           <TeamContainer>
             <h3>{translate.COLLAB}</h3>
-            <button className="chevronLeft" onClick={(e) => handleLeftClick(e, 1)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
-            <button className="chevronRight" onClick={(e) => handleRightClick(e, 1)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
-            <div className="teamContent" ref={(item) => sliders.current[1] = item}>
+            <button className="chevronLeft" onClick={(e) => handleLeftClick(e, 2)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
+            <button className="chevronRight" onClick={(e) => handleRightClick(e, 2)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
+            <div className="teamContent" ref={(item) => sliders.current[2] = item}>
               {team.colab.map((item, index) => {
                   return (
                     <div className="member" key={index}>

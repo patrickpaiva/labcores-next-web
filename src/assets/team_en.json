@@ -48,11 +48,6 @@
       "areas": ["Intelligent Ecosystems"]
     },
     {
-      "name": "Danilo Carvalho",
-      "photo": "/images/danilo-carvalho.png",
-      "areas": ["Digital Toxic Content"]
-    },
-    {
       "name": "Livia Ruback",
       "photo": "/images/livia-ruback.png",
       "areas": ["Digital Toxic Content"]
@@ -112,7 +107,7 @@
     {
       "name": "Danilo Carvalho",
       "photo": "/images/danilo-carvalho.png",
-      "areas": ["Digital Toxic Content"]
+      "areas": ["Pattern Recognition"]
     },
     {
       "name": "Claudia Cappeli",
