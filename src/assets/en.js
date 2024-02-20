@@ -34,6 +34,7 @@ export default {
   ABOUT_WORKING_GROUPS: 'LabCores Working Groups',
   COORD: 'Head',
   COORD_ASSIST: 'Head Assistant',
+  SEC_PPGI: 'PPGI Secretary',
   MEET: 'Meet ',
   LABCORES:'Lab CORES',
   TEAM:'Team ',

@@ -34,6 +34,7 @@ export default {
   ABOUT_WORKING_GROUPS: 'Grupos de trabalho do LabCores',
   COORD: 'Coordenadora',
   COORD_ASSIST: 'Coordenadora Assistente',
+  SEC_PPGI: 'Secretária do PPGI',
   MEET: 'Conheça a equipe do ',
   LABCORES:'Lab CORES',
   TEAM:'',
