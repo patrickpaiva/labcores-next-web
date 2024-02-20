@@ -13,7 +13,7 @@
     {
       "name": "Paulo Freitas Silva Júnior",
       "photo": "/images/blank-photo.png",
-      "areas": ["Sensing and Monitoring", "Data Engineering"]
+      "areas": ["Data Engineering","Sensing and Monitoring"]
     },
     {
       "name": "Caio Zava Ferreira",
@@ -33,29 +33,9 @@
   ],
   "dscs": [
     {
-      "name": "Rodrigo Pereira dos Santos",
-      "photo": "/images/blank-photo.png",
-      "areas": ["Intelligent Ecosystems"]
-    },
-    {
-      "name": "Mônica Ferreira da Silva",
-      "photo": "/images/blank-photo.png",
-      "areas": ["Intelligent Ecosystems"]
-    },
-    {
-      "name": "Claudia Cappeli",
-      "photo": "/images/claudia-cappeli.png",
-      "areas": ["Intelligent Ecosystems"]
-    },
-    {
-      "name": "Livia Ruback",
-      "photo": "/images/livia-ruback.png",
-      "areas": ["Digital Toxic Content"]
-    },
-    {
       "name": "Anderson Cordeiro Charles",
       "photo": "/images/anderson-cordeiro.jpg",
-      "areas": ["Sensing and Monitoring", "Transparency and Disinformation Combat"]
+      "areas": ["Digital Toxic Content", "Sensing and Monitoring"]
     },
     {
       "name": "Diogo Nolasco Ferreira Sousa",
@@ -63,14 +43,14 @@
       "areas": ["Pattern Recognition", "Data Engineering"]
     },
     {
-      "name": "LUIS FERNANDO MONSORES PASSOS MAIA",
+      "name": "Luis Fernando Monsores Passos Maia",
       "photo": "/images/blank-photo.png",
       "areas": ["Sensing and Monitoring", "Intelligent Ecosystems"]
     },
     {
       "name": "Luiz Paulo Carvalho da Silva",
       "photo": "/images/luiz-paulo-carvalho.jpg",
-      "areas": ["Transparency and Disinformation Combat", "Sensing and Monitoring"]
+      "areas": ["Computational Ethics", "Sensing and Monitoring"]
     },
     {
       "name": "Marcus Vinicius Ferreira Gonçalves",
@@ -78,7 +58,7 @@
       "areas": ["Data Engineering", "Intelligent Ecosystems"]
     },
     {
-      "name": "PAULO DAVID DE JESUS TOSTES DOS SANTOS",
+      "name": "Paulo David De Jesus Tostes Dos Santos",
       "photo": "/images/blank-photo.png",
       "areas": ["Intelligent Ecosystems"]
     },
@@ -88,9 +68,9 @@
       "areas": ["Digital Toxic Content", "Sensing and Monitoring"]
     },
     {
-      "name": "SIRIUS THADEU FERREIRA DA SILVA",
+      "name": "Sirius Thadeu Ferreira Da Silva",
       "photo": "/images/blank-photo.png",
-      "areas": ["Sensing and Monitoring", "Transparency and Disinformation Combat"]
+      "areas": ["Sensing and Monitoring", "Digital Toxic Content"]
     }
   ],
   "colab": [

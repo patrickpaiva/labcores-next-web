@@ -46,10 +46,10 @@ const ContactUs: React.FC = () => {
             <strong>Jonice Oliveira - {translate.COORD}</strong> <br />
             Phone: +55 21 3938-3353 <br />
             Fax: +55 21 3938-9515 <br />
-            jonice@dcc.ufrj.br
+            jonice@ic.ufrj.br
           </p>
           <p>
-            <strong>Patricia Mamede - {translate.COORD_ASSIST}</strong> <br />
+            <strong>Patricia Mamede - {translate.SEC_PPGI}</strong> <br />
             Phone: +55 21 3938-3237 <br />
             secretaria@ppgi.ufrj.br
           </p>
