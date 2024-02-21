@@ -9,6 +9,7 @@ export default {
   ABOUT_US: 'Sobre Nós',
   OUR_TEAM: 'Nosso Time',
   OUR_PROJECTS: 'Nossos Projetos',
+  OUR_PUBLIC: 'Nossas Publicações',
   RESEARCH_AREAS: 'Áreas Pesquisadas',
   LATEST_NEWS: 'Últimas Notícias',
   LATEST: 'Últimas',
@@ -86,5 +87,9 @@ export default {
 
   DESCRIPTION: 'Descrição',
   PROJECT_MEMBERS:'Integrantes',
-  COLLAB: 'Colaboradores'
+  COORDENATORS: 'Coordenadoores',
+  COLLAB: 'Colaboradores',
+  DSC: 'Alunos de D.Sc.',
+  MSC: 'Alunos de M.Sc.',
+  BSC: 'Alunos de B.Sc.'
 }

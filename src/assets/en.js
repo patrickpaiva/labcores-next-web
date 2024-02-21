@@ -8,6 +8,7 @@ export default {
   HOME: 'Home',
   ABOUT_US: 'About Us',
   OUR_TEAM: 'Our Team',
+  OUR_PUBLIC: 'Our Publications',
   OUR_PROJECTS: 'Our Projects',
   RESEARCH_AREAS: 'Research Areas',
   LATEST_NEWS: 'Latest News',
@@ -86,5 +87,9 @@ export default {
 
   DESCRIPTION: 'Description',
   PROJECT_MEMBERS:'Members',
-  COLLAB: 'Collaborators'
+  COORDENATORS: 'Coordinators',
+  COLLAB: 'Collaborators',
+  DSC: 'D.Sc. Students',
+  MSC: 'M.Sc. Students',
+  BSC: 'B.Sc. Students'
 }
