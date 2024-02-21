@@ -9,6 +9,7 @@ export default {
   ABOUT_US: 'Sobre Nós',
   OUR_TEAM: 'Nosso Time',
   OUR_PROJECTS: 'Nossos Projetos',
+  OUR_PUBLIC: 'Nossas Publicações',
   RESEARCH_AREAS: 'Áreas Pesquisadas',
   LATEST_NEWS: 'Últimas Notícias',
   LATEST: 'Últimas',

@@ -46,6 +46,7 @@ const Header: React.FC = () => {
           <Link href="/about" locale={ locale }>{translate.ABOUT_US}</Link>
           <Link href="/our-team" locale={ locale }>{translate.OUR_TEAM}</Link>
           <Link href="/research-areas" locale={ locale }>{translate.RESEARCH_AREAS}</Link>
+          <a href="https://www.joniceoliveira.net/journal-publications" target="_blank">{translate.OUR_PUBLIC}</a>
           {/* <Link href="/latest-news" locale={ locale }>{translate.LATEST_NEWS}</Link> */}
           <Link href="/our-projects" locale={ locale }>{translate.OUR_PROJECTS}</Link>
           <Link href="/contact" locale={ locale }>{translate.CONTACT_US}</Link>
