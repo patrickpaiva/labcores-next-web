@@ -71,7 +71,7 @@ const OurTeam: React.FC = () => {
           </TeamContainer>
 
           <TeamContainer>
-            <h3>Alunos de D.Sc</h3>
+            <h3>{translate.DSC}</h3>
             <button className="chevronLeft" onClick={(e) => handleLeftClick(e, 0)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
             <button className="chevronRight" onClick={(e) => handleRightClick(e, 0)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
             <div className="teamContent" ref={(item) => sliders.current[0] = item}>
@@ -94,7 +94,7 @@ const OurTeam: React.FC = () => {
           </TeamContainer>
 
           <TeamContainer>
-            <h3>Alunos de M.Sc</h3>
+            <h3>{translate.MSC}</h3>
             <button className="chevronLeft" onClick={(e) => handleLeftClick(e, 1)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
             <button className="chevronRight" onClick={(e) => handleRightClick(e, 1)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
             <div className="teamContent" ref={(item) => sliders.current[1] = item}>
