@@ -47,6 +47,30 @@ const OurTeam: React.FC = () => {
               </div>
             </div>
           </div>
+
+          <TeamContainer>
+            <h3>{translate.COORDENATORS}</h3>
+            <button className="chevronLeft" onClick={(e) => handleLeftClick(e, 3)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
+            <button className="chevronRight" onClick={(e) => handleRightClick(e, 3)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
+            <div className="teamContent" ref={(item) => sliders.current[3] = item}>
+              {team.coordenators.map((item, index) => {
+                  return (
+                    <div className="member" key={index}>
+                      <img src={item.photo} alt={item.name} />
+                      <p className="name">{item.name}</p>
+                      <ul>
+                        {item.areas.map((area, id) => {
+                          return (
+                            <li key={id}>{area}</li>
+                          )
+                        })}
+                      </ul>
+                    </div>
+                  )
+              })}
+            </div>
+          </TeamContainer>
+
           <TeamContainer>
             <h3>{translate.COLLAB}</h3>
             <button className="chevronLeft" onClick={(e) => handleLeftClick(e, 2)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>

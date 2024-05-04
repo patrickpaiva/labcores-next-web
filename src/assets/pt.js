@@ -87,7 +87,7 @@ export default {
 
   DESCRIPTION: 'Descrição',
   PROJECT_MEMBERS:'Integrantes',
-  COORDENATORS: 'Coordenadoores',
+  COORDENATORS: 'Coordenadores',
   COLLAB: 'Colaboradores',
   DSC: 'Alunos de D.Sc.',
   MSC: 'Alunos de M.Sc.',

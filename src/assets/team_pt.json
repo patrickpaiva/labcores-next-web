@@ -149,16 +149,56 @@
   "bscs": [
     {
       "name": "",
-      "photo": "",
+      "photo": "/images/blank-photo.png",
       "areas": []
     }
   ],
 
   "coordenators": [
     {
-      "name": "",
-      "photo": "",
-      "areas": []
+      "name": "Tiago França",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Sensoriamento e Monitoramento"]
+    },
+    {
+      "name": "Silas Lima Filho",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Sensoriamento e Monitoramento"]
+    },
+    {
+      "name": "Rafael Escalfoni",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Ecossistemas Inteligentes"]
+    },
+    {
+      "name": "Jamile Santos dos Santos",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Conteúdo Tóxico Digital"]
+    },
+    {
+      "name": "Diogo Nolasco Ferreira Sousa",
+      "photo": "/images/diogo-nolasco.jpg",
+      "areas": ["Reconhecimento de Padrões"]
+    },
+    {
+      "name": "Marcus Vinicius Ferreira Gonçalves",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Engenharia de Dados"]
+    },
+    {
+      "name": "Paulo Freitas Silva Júnior",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Engenharia de Dados"]
+    },
+    {
+      "name": "Luiz Paulo Carvalho da Silva",
+      "photo": "/images/luiz-paulo-carvalho.jpg",
+      "areas": ["Ética Computacional"]
+    },
+    {
+      "name": "Raisa Christina Gonçalves",
+      "photo": "/images/raisa-christina-gonçalves.jpeg",
+      "areas": ["Gestão e Comunicação"]
     }
   ]
 }
