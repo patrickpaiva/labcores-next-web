@@ -6,11 +6,6 @@
       "areas": ["Conteúdo Tóxico Digital", "Reconhecimento de Padrões"]
     },
     {
-      "name": "Leonardo Herdy Marinho",
-      "photo": "/images/blank-photo.png",
-      "areas": ["Ecossistemas Inteligentes"]
-    },
-    {
       "name": "Paulo Freitas Silva Júnior",
       "photo": "/images/blank-photo.png",
       "areas": [ "Engenharia de Dados", "Sensoriamento e Monitoramento"]
@@ -74,11 +69,6 @@
     }
   ],
   "colab": [
-    {
-      "name": "Leonardo Herdy Marinho",
-      "photo": "/images/blank-photo.png",
-      "areas": ["Ecossistemas Inteligentes"]
-    },
     {
       "name": "Livia Ruback",
       "photo": "/images/livia-ruback.png",
@@ -153,6 +143,22 @@
       "name": "Marcos Arrais",
       "photo": "/images/blank-photo.png",
       "areas": ["Ecossistemas Inteligentes"]
+    }
+  ],
+  
+  "bscs": [
+    {
+      "name": "",
+      "photo": "",
+      "areas": []
+    }
+  ],
+
+  "coordenators": [
+    {
+      "name": "",
+      "photo": "",
+      "areas": []
     }
   ]
 }
