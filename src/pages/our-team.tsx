@@ -140,12 +140,11 @@ const OurTeam: React.FC = () => {
             </div>
           </TeamContainer>
 
-
           <TeamContainer>
             <h3>{translate.BSC}</h3>
-            <button className="chevronLeft" onClick={(e) => handleLeftClick(e, 1)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
-            <button className="chevronRight" onClick={(e) => handleRightClick(e, 1)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
-            <div className="teamContent" ref={(item) => sliders.current[1] = item}>
+            <button className="chevronLeft" onClick={(e) => handleLeftClick(e, 4)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
+            <button className="chevronRight" onClick={(e) => handleRightClick(e, 4)}><img src="/images/chevron-icon.png" alt="arrow left" /></button>
+            <div className="teamContent" ref={(item) => sliders.current[4] = item}> 
               {team.bscs.map((item, index) => {
                   return (
                     <div className="member" key={index}>
@@ -163,7 +162,6 @@ const OurTeam: React.FC = () => {
               })}
             </div>
           </TeamContainer>
-
 
         </div>
       </main>
