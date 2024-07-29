@@ -145,12 +145,29 @@
       "areas": ["Intelligent Ecosystems"]
     }
   ],
+  
   "bscs": [
     {
-      "name": "",
+      "name": "Raisa Christina Gonçalves",
+      "photo": "/images/raisa-christina-gonçalves.jpeg",
+      "areas": ["Communications and Management"]
+    },
+    {
+      "name": "Joao Matheus Nascimento Goncalves",
       "photo": "/images/blank-photo.png",
-      "areas": []
+      "areas": ["Pattern Recognition"]
+    },
+    {
+      "name": "Cassio Emanuel Silva",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Sensing and Monitoring"]
+    },
+    {
+      "name": "Leandro Silva Omena",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Sensing and Monitoring"]
     }
+
   ],
 
   "coordenators": 

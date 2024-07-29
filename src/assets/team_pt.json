@@ -148,10 +148,26 @@
   
   "bscs": [
     {
-      "name": "",
+      "name": "Raisa Christina Gonçalves",
+      "photo": "/images/raisa-christina-gonçalves.jpeg",
+      "areas": ["Gestão e Comunicação"]
+    },
+    {
+      "name": "Joao Matheus Nascimento Goncalves",
       "photo": "/images/blank-photo.png",
-      "areas": []
+      "areas": ["Reconhecimento de Padrões"]
+    },
+    {
+      "name": "Cassio Emanuel Silva",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Sensoriamento e Monitoramento"]
+    },
+    {
+      "name": "Leandro Silva Omena",
+      "photo": "/images/blank-photo.png",
+      "areas": ["Sensoriamento e Monitoramento"]
     }
+
   ],
 
   "coordenators": [
