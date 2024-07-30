@@ -1,29 +1,29 @@
 {
   "mscs": [
     {
-      "name": "Marcos Paulo Moraes",
-      "photo": "/images/blank-photo.png",
-      "areas": ["Conteúdo Tóxico Digital", "Reconhecimento de Padrões"]
+      "name": "Eliel Roger da Silva",
+      "photo": "/images/eliel-roger-silva.jpg",
+      "areas": ["Sensoriamento e Monitoramento", "Ecossistemas Inteligentes"]
     },
     {
       "name": "Paulo Freitas Silva Júnior",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/paulo-freitas.jpg",
       "areas": [ "Engenharia de Dados", "Sensoriamento e Monitoramento"]
     },
     {
       "name": "Caio Zava Ferreira",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/caio-zava-ferreira.jpg",
       "areas": ["Conteúdo Tóxico Digital", "Reconhecimento de Padrões"]
     },
     {
       "name": "Larissa da Silva Paiva",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/larissa-paiva.jpg",
       "areas": ["Sensoriamento e Monitoramento", "Ecossistemas Inteligentes"]
     },
     {
-      "name": "Eliel Roger da Silva",
+      "name": "Marcos Paulo Moraes",
       "photo": "/images/blank-photo.png",
-      "areas": ["Sensoriamento e Monitoramento", "Ecossistemas Inteligentes"]
+      "areas": ["Conteúdo Tóxico Digital", "Reconhecimento de Padrões"]
     }
   ],
   "dscs": [
@@ -38,18 +38,13 @@
       "areas": ["Reconhecimento de Padrões", "Engenharia de Dados"]
     },
     {
-      "name": "Luis Fernando Monsores Passos Maia",
-      "photo": "/images/blank-photo.png",
-      "areas": ["Sensoriamento e Monitoramento", "Ecossistemas Inteligentes"]
-    },
-    {
       "name": "Luiz Paulo Carvalho da Silva",
       "photo": "/images/luiz-paulo-carvalho.jpg",
       "areas": ["Ética Computacional", "Sensoriamento e Monitoramento"]
     },
     {
       "name": "Marcus Vinicius Ferreira Gonçalves",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/marcus-vinicius.jpg",
       "areas": ["Engenharia de Dados", "Ecossistemas Inteligentes"]
     },
     {
@@ -59,13 +54,18 @@
     },
     {
       "name": "Jamile Santos dos Santos",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/jamile-santos-dos-santos.jpg",
       "areas": ["Conteúdo Tóxico Digital", "Sensoriamento e Monitoramento"]
     },
     {
       "name": "Sirius Thadeu Ferreira Da Silva",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/sirius-silva.jpg",
       "areas": ["Sensoriamento e Monitoramento", "Conteúdo Digital Tóxico"]
+    },
+    {
+      "name": "Luis Fernando Monsores Passos Maia",
+      "photo": "/images/luis-monsores.jpg",
+      "areas": ["Sensoriamento e Monitoramento", "Ecossistemas Inteligentes"]
     }
   ],
   "colab": [
@@ -86,7 +86,7 @@
     },
     {
       "name": "Mônica Ferreira da Silva",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/monica-ferreira.jpg",
       "areas": ["Ecossistemas Inteligentes"]
     },
     {
@@ -96,52 +96,52 @@
     },
     {
       "name": "Tiago França",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/tiago-frança.jpg",
       "areas": ["Sensoriamento e Monitoramento"]
     },
     {
       "name": "Silas Lima Filho",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/silas-lima-filho.jpg",
       "areas": ["Sensoriamento e Monitoramento"]
     },
     {
       "name": "Rodrigo dos Santos Oliveira",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/rodrigo-oliveira.jpg",
       "areas": ["Ética Computacional"]
     },
     {
       "name": "Fabrício Firmino de Faria",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/fabricio-firmino.jpg",
       "areas": ["Reconhecimento de Padrões"]
     },
     {
       "name": "Vladimir Fagundes",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/vladimir-fagundes.jpg",
       "areas": ["Ecossistemas Inteligentes"]
     },
     {
       "name": "Fabio Porto",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/fabio-porto.jpg",
       "areas": ["Engenharia de Dados"]
     },
     {
-      "name": "Daniel Alfarro",
-      "photo": "/images/blank-photo.png",
+      "name": "Daniel Alfaro",
+      "photo": "/images/daniel-alfaro.jpg",
       "areas": ["Reconhecimento de Padrões"]
     },
     {
       "name": "Flávia Santoro",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/flavia-santoro.jpg",
       "areas": ["Ética Computacional"]
     },
     {
       "name": "Rafael Escalfoni",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/rafael-escalfoni.jpg",
       "areas": ["Ecossistemas Inteligentes"]
     },
     {
       "name": "Marcos Arrais",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/marcos-arrais.jpg",
       "areas": ["Ecossistemas Inteligentes"]
     }
   ],
@@ -154,17 +154,17 @@
     },
     {
       "name": "Joao Matheus Nascimento Goncalves",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/joao-matheus.jpg",
       "areas": ["Reconhecimento de Padrões"]
     },
     {
       "name": "Cassio Emanuel Silva",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/cassio-emanuel.jpg",
       "areas": ["Sensoriamento e Monitoramento"]
     },
     {
       "name": "Leandro Silva Omena",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/leandro-omena.jpg",
       "areas": ["Sensoriamento e Monitoramento"]
     }
 
@@ -173,22 +173,22 @@
   "coordenators": [
     {
       "name": "Tiago França",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/tiago-frança.jpg",
       "areas": ["Sensoriamento e Monitoramento"]
     },
     {
       "name": "Silas Lima Filho",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/silas-lima-filho.jpg",
       "areas": ["Sensoriamento e Monitoramento"]
     },
     {
       "name": "Rafael Escalfoni",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/rafael-escalfoni.jpg",
       "areas": ["Ecossistemas Inteligentes"]
     },
     {
       "name": "Jamile Santos dos Santos",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/jamile-santos-dos-santos.jpg",
       "areas": ["Conteúdo Tóxico Digital"]
     },
     {
@@ -198,12 +198,12 @@
     },
     {
       "name": "Marcus Vinicius Ferreira Gonçalves",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/marcus-vinicius.jpg",
       "areas": ["Engenharia de Dados"]
     },
     {
       "name": "Paulo Freitas Silva Júnior",
-      "photo": "/images/blank-photo.png",
+      "photo": "/images/paulo-freitas.jpg",
       "areas": ["Engenharia de Dados"]
     },
     {
