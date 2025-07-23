@@ -6,7 +6,7 @@ export const Container = styled.div`
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #ECECEC;
+  background-color: #ececec;
   z-index: 999;
   display: grid;
   align-items: center;
@@ -24,7 +24,7 @@ export const Container = styled.div`
     right: 0;
     margin: 12px 12px;
     cursor: pointer;
-    color: ${(props) => props.theme.colors.green};
+    color: ${props => props.theme.colors.green};
     font-size: 300%;
   }
 `
@@ -44,7 +44,7 @@ export const Nav = styled.div`
 
   a {
     text-decoration: none;
-    color: ${(props) => props.theme.colors.green};
+    color: ${props => props.theme.colors.green};
     text-align: center;
     font-size: 2.4rem;
   }
@@ -53,9 +53,9 @@ export const Nav = styled.div`
     display: flex;
     gap: 12px;
     a {
-      color: #FFF;
+      color: #fff;
       font-size: 1.6rem;
-      background-color: ${(props) => props.theme.colors.blue};
+      background-color: ${props => props.theme.colors.blue};
       padding: 6px;
       border-radius: 10px;
       font-weight: bold;

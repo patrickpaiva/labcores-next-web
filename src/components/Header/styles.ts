@@ -11,12 +11,12 @@ export const Container = styled.div`
   box-shadow: none;
 
   &.scroll {
-    transition: background .2s ease,box-shadow .2s ease;
+    transition: background 0.2s ease, box-shadow 0.2s ease;
     background: #fff;
     box-shadow: 0 1px 0 #f7f7f7;
 
     nav a {
-      p{
+      p {
         color: #000;
       }
     }
@@ -26,7 +26,7 @@ export const Container = styled.div`
     }
 
     .hamburguer {
-      color: ${(props) => props.theme.colors.green};
+      color: ${props => props.theme.colors.green};
     }
   }
 
@@ -54,7 +54,7 @@ export const Container = styled.div`
         transition: color 0.2s;
 
         &:hover {
-          color: ${(props) => props.theme.colors.green};
+          color: ${props => props.theme.colors.green};
         }
       }
     }
@@ -64,12 +64,12 @@ export const Container = styled.div`
       background-color: transparent;
       border: none;
       font-size: 1.6rem;
-      color: ${(props) => props.theme.colors.blue};
+      color: ${props => props.theme.colors.blue};
       font-weight: bold;
       font-family: 'Plus Jakarta Sans';
 
       option {
-        background: ${(props) => props.theme.colors.green};
+        background: ${props => props.theme.colors.green};
         color: #fff;
       }
     }
@@ -77,7 +77,6 @@ export const Container = styled.div`
     img {
       height: 60px;
     }
-
   }
 
   .menu {
@@ -99,7 +98,7 @@ export const Container = styled.div`
   }
 
   .menu a:hover {
-    color: ${(props) => props.theme.colors.green};
+    color: ${props => props.theme.colors.green};
   }
 
   .hamburguer {
@@ -121,5 +120,4 @@ export const Container = styled.div`
       cursor: pointer;
     }
   }
-
 `

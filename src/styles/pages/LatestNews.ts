@@ -32,7 +32,7 @@ export const Projects = styled.div`
       margin-bottom: 18px;
 
       span {
-        color: ${(props) => props.theme.colors.green};
+        color: ${props => props.theme.colors.green};
       }
     }
 
@@ -75,7 +75,7 @@ export const Projects = styled.div`
           transition: background-color 0.4s ease-out;
 
           &:hover {
-            background-color: ${(props) => props.theme.colors.red};
+            background-color: ${props => props.theme.colors.red};
           }
         }
       }

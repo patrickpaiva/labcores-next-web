@@ -29,8 +29,8 @@ export const HeroBG = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    content: "";
-    opacity: .6;
+    content: '';
+    opacity: 0.6;
     background: #000;
   }
 `
@@ -49,20 +49,20 @@ export const Content = styled.div`
     font-weight: 600;
     text-align: center;
 
-    span:nth-child(1){
-      /* color: ${(props) => props.theme.colors.blue}; */
+    span:nth-child(1) {
+      /* color: ${props => props.theme.colors.blue}; */
     }
-    span:nth-child(2){
-      color: ${(props) => props.theme.colors.blue};
+    span:nth-child(2) {
+      color: ${props => props.theme.colors.blue};
     }
-    span:nth-child(3){
-      color: ${(props) => props.theme.colors.red};
+    span:nth-child(3) {
+      color: ${props => props.theme.colors.red};
     }
-    span:nth-child(4){
-      color: ${(props) => props.theme.colors.green};
+    span:nth-child(4) {
+      color: ${props => props.theme.colors.green};
     }
-    span:nth-child(5){
-      /* color: ${(props) => props.theme.colors.green}; */
+    span:nth-child(5) {
+      /* color: ${props => props.theme.colors.green}; */
     }
   }
 

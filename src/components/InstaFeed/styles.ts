@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
@@ -16,7 +15,8 @@ export const Container = styled.div`
     transition: 0.4s;
   }
 
-  .item img, video {
+  .item img,
+  video {
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
@@ -26,13 +26,10 @@ export const Container = styled.div`
     filter: brightness(1.3);
   }
 
-  @media (max-width: 768px){
+  @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-
 `
-
-

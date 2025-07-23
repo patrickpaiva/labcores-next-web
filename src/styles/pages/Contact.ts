@@ -23,7 +23,8 @@ export const Container = styled.div`
       }
     }
 
-    .endereco, .dadosContato {
+    .endereco,
+    .dadosContato {
       p {
         text-align: center;
         line-height: 28px;

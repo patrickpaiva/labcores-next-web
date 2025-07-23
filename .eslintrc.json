@@ -9,9 +9,7 @@
     "plugin:react/recommended",
     "standard",
     "plugin:@typescript-eslint/recommended",
-    "prettier/@typescript-eslint",
-    "prettier/standard",
-    "prettier/react"
+    "prettier"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -26,9 +24,26 @@
     "@typescript-eslint",
     "prettier"
   ],
-  "rules": {
-    "prettier/prettier": "error",
-    "space-before-function-paren": "off",
-    "react/prop-types": "off"
+    "rules": {
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error", {
+      "functions": false,
+      "classes": false, 
+      "variables": false,
+      "typedefs": false,
+      "ignoreTypeReferences": true
+    }],
+    "@typescript-eslint/no-unused-vars": ["error", { 
+      "argsIgnorePattern": "^_" 
+    }],
+    "react/jsx-no-target-blank": ["error", { 
+      "allowReferrer": true 
+    }],
+    "react/react-in-jsx-scope": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
   }
 }

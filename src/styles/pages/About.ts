@@ -29,11 +29,10 @@ export const Container = styled.div`
           color: ${props => props.theme.colors.green};
         }
 
-        span:last-child{
+        span:last-child {
           color: ${props => props.theme.colors.blue};
         }
       }
-
 
       p {
         margin-bottom: 18px;
@@ -52,7 +51,7 @@ export const Container = styled.div`
     }
   }
 
-  @media(max-width: 920px) {
+  @media (max-width: 920px) {
     main {
       .content {
         p {

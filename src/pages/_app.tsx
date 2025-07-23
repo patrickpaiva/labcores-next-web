@@ -1,3 +1,4 @@
+import React from 'react'
 import { AppProps } from 'next/app'
 import { ThemeProvider } from 'styled-components'
 
@@ -11,7 +12,6 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
       <GlobalStyle />
     </ThemeProvider>
   )
-
 }
 
 export default MyApp
