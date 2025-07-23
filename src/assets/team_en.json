@@ -166,6 +166,16 @@
       "name": "Leandro Silva Omena",
       "photo": "/images/leandro-omena.jpg",
       "areas": ["Sensing and Monitoring"]
+    },
+    {
+      "name": "Leonardo Lima Santos",
+      "photo": "/images/leonardo-santos.jpg",
+      "areas": ["Sensing and Monitoring"]
+    },
+    {
+      "name": "Matheus Henrique de Souza",
+      "photo": "/images/matheus-souza.jpg",
+      "areas": ["Sensing and Monitoring"]
     }
 
   ],
