@@ -12,7 +12,7 @@ import en from '../assets/en'
 import pt from '../assets/pt'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { InstaFeed } from '../components/InstaFeed/InstaFeed'
+// import { InstaFeed } from '../components/InstaFeed/InstaFeed'
 
 const Home: React.FC = () => {
   const router = useRouter()
@@ -102,7 +102,7 @@ const Home: React.FC = () => {
               {translate.LATEST} <span>{translate.NEWS}</span>
             </h2>
           </div>
-          <InstaFeed />
+          {/* <InstaFeed /> */}
         </Projects>
       </main>
       <Footer />
