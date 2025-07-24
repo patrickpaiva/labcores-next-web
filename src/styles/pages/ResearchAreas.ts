@@ -29,7 +29,6 @@ export const Container = styled.div`
       font-size: 1.6rem;
       line-height: 2.6rem;
       text-align: justify;
-
     }
 
     .area {
@@ -47,14 +46,15 @@ export const Container = styled.div`
         margin-bottom: 18px;
 
         img {
-          max-width:350px ;
+          max-width: 350px;
           float: left;
           margin-right: 16px;
         }
       }
     }
 
-    #monitoring, #data {
+    #monitoring,
+    #data {
       p img {
         float: right;
         margin: 0 0 8px 8px;
@@ -66,7 +66,6 @@ export const Container = styled.div`
         max-height: 350px;
       }
     }
-
   }
 
   @media (max-width: 900px) {
@@ -76,14 +75,14 @@ export const Container = styled.div`
         text-align: center;
       }
       .area {
-      width: 100%;
-      max-width: 940px;
-      padding: 0 20px;
-      margin-bottom: 32px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 16px;
+        width: 100%;
+        max-width: 940px;
+        padding: 0 20px;
+        margin-bottom: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
 
         p {
           max-width: 100%;
@@ -96,10 +95,8 @@ export const Container = styled.div`
           }
         }
       }
-
     }
   }
-
 `
 
 export const ContentLeft = styled.div`
@@ -149,7 +146,6 @@ export const ContentLeft = styled.div`
       }
     }
   }
-
 `
 
 export const ContentRight = styled.div`
@@ -201,5 +197,4 @@ export const ContentRight = styled.div`
       }
     }
   }
-
 `

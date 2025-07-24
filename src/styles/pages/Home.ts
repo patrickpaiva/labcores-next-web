@@ -38,7 +38,7 @@ export const Presentation = styled.div`
       text-align: center;
 
       span {
-        color: ${(props) => props.theme.colors.green}
+        color: ${props => props.theme.colors.green};
       }
     }
 
@@ -51,7 +51,7 @@ export const Presentation = styled.div`
 
     a {
       margin-top: 16px;
-      background-color: ${(props) => props.theme.colors.blue};
+      background-color: ${props => props.theme.colors.blue};
       padding: 16px 24px;
       text-decoration: none;
       color: #fff;
@@ -60,7 +60,7 @@ export const Presentation = styled.div`
       transition: background-color 0.4s ease-out;
 
       &:hover {
-        background-color: ${(props) => props.theme.colors.red};
+        background-color: ${props => props.theme.colors.red};
       }
     }
   }
@@ -89,7 +89,7 @@ export const Team = styled.div`
   width: 100vw;
   max-width: 100%;
   height: 600px;
-  background-color: #ECECEC;
+  background-color: #ececec;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -127,10 +127,10 @@ export const Team = styled.div`
         margin-top: 5px;
         font-size: 1.8rem;
         font-weight: 600;
-        color: ${(props) => props.theme.colors.blue};
+        color: ${props => props.theme.colors.blue};
 
         span {
-          color: ${(props) => props.theme.colors.red};
+          color: ${props => props.theme.colors.red};
         }
       }
 
@@ -147,7 +147,7 @@ export const Team = styled.div`
           text-align: center;
 
           span {
-            color: ${(props) => props.theme.colors.green}
+            color: ${props => props.theme.colors.green};
           }
         }
 
@@ -160,7 +160,7 @@ export const Team = styled.div`
 
         a {
           margin-top: 16px;
-          background-color: ${(props) => props.theme.colors.blue};
+          background-color: ${props => props.theme.colors.blue};
           padding: 16px 24px;
           text-decoration: none;
           color: #fff;
@@ -169,7 +169,7 @@ export const Team = styled.div`
           transition: background-color 0.4s ease-out;
 
           &:hover {
-            background-color: ${(props) => props.theme.colors.red};
+            background-color: ${props => props.theme.colors.red};
           }
         }
       }
@@ -196,7 +196,6 @@ export const Team = styled.div`
       }
     }
   }
-
 `
 export const Researches = styled.div`
   display: flex;
@@ -220,7 +219,7 @@ export const Researches = styled.div`
       font-weight: 300;
 
       span {
-        color: ${(props) => props.theme.colors.red};
+        color: ${props => props.theme.colors.red};
       }
     }
 
@@ -235,7 +234,7 @@ export const Researches = styled.div`
         height: 250px;
         padding: 16px 40px;
         border-radius: 10px;
-        background-color: #0D6892;
+        background-color: #0d6892;
         color: white;
         font-weight: 300;
         font-size: 1.4rem;
@@ -269,13 +268,13 @@ export const Researches = styled.div`
           transition: background-color 0.4s ease-out;
 
           &:hover {
-            background-color: ${(props) => props.theme.colors.green};
+            background-color: ${props => props.theme.colors.green};
           }
         }
       }
 
-      .box:last-child{
-        background-color: #ECECEC;
+      .box:last-child {
+        background-color: #ececec;
         color: black;
 
         a {
@@ -289,7 +288,6 @@ export const Researches = styled.div`
         }
       }
     }
-
   }
 
   @media (max-width: 768px) {
@@ -334,7 +332,7 @@ export const Projects = styled.div`
       padding: 20px 0;
 
       span {
-        color: ${(props) => props.theme.colors.green};
+        color: ${props => props.theme.colors.green};
       }
     }
 
@@ -375,7 +373,7 @@ export const Projects = styled.div`
           transition: background-color 0.4s ease-out;
 
           &:hover {
-            background-color: ${(props) => props.theme.colors.red};
+            background-color: ${props => props.theme.colors.red};
           }
         }
       }

@@ -149,7 +149,7 @@
   "bscs": [
     {
       "name": "Raisa Christina Gonçalves",
-      "photo": "/images/raisa-christina-gonçalves.jpeg",
+      "photo": "/images/raisa-christina-goncalves.jpeg",
       "areas": ["Gestão e Comunicação"]
     },
     {
@@ -165,6 +165,16 @@
     {
       "name": "Leandro Silva Omena",
       "photo": "/images/leandro-omena.jpg",
+      "areas": ["Sensoriamento e Monitoramento"]
+    },
+    {
+      "name": "Leonardo Lima Santos",
+      "photo": "/images/leonardo-santos.jpg",
+      "areas": ["Sensoriamento e Monitoramento"]
+    },
+    {
+      "name": "Matheus Henrique de Souza",
+      "photo": "/images/matheus-souza.jpg",
       "areas": ["Sensoriamento e Monitoramento"]
     }
 
@@ -213,7 +223,7 @@
     },
     {
       "name": "Raisa Christina Gonçalves",
-      "photo": "/images/raisa-christina-gonçalves.jpeg",
+      "photo": "/images/raisa-christina-goncalves.jpeg",
       "areas": ["Gestão e Comunicação"]
     }
   ]

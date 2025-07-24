@@ -67,7 +67,7 @@ export const Container = styled.div`
 
             a {
               margin-top: 16px;
-              background-color: ${(props) => props.theme.colors.blue};
+              background-color: ${props => props.theme.colors.blue};
               padding: 16px 24px;
               text-decoration: none;
               color: #fff;
@@ -76,17 +76,16 @@ export const Container = styled.div`
               transition: background-color 0.4s ease-out;
 
               &:hover {
-                background-color: ${(props) => props.theme.colors.green};
+                background-color: ${props => props.theme.colors.green};
               }
             }
           }
         }
       }
-  }
+    }
   }
 
   @media (max-width: 900px) {
-
     main .content .head {
       display: flex;
       flex-direction: column;
@@ -100,7 +99,7 @@ export const Container = styled.div`
         width: inherit;
       }
     }
-    main .content .head .headContent{
+    main .content .head .headContent {
       flex-direction: column;
 
       .joniceText {
@@ -132,7 +131,7 @@ export const TeamContainer = styled.div`
     background-color: transparent;
     border: none;
     cursor: pointer;
-    opacity: .7;
+    opacity: 0.7;
     transform: rotateY(180deg);
   }
 
@@ -143,7 +142,7 @@ export const TeamContainer = styled.div`
     background-color: transparent;
     border: none;
     cursor: pointer;
-    opacity: .7;
+    opacity: 0.7;
   }
 
   .teamContent {
@@ -154,7 +153,7 @@ export const TeamContainer = styled.div`
     scroll-behavior: smooth;
     position: relative;
 
-    &::-webkit-scrollbar{
+    &::-webkit-scrollbar {
       display: none;
     }
 
@@ -192,45 +191,42 @@ export const TeamContainer = styled.div`
           margin-bottom: 4px;
         }
       }
-
     }
 
-    .member:nth-child(3n+1) {
+    .member:nth-child(3n + 1) {
       .name {
         color: ${props => props.theme.colors.green};
       }
     }
-    .member:nth-child(3n+2) {
+    .member:nth-child(3n + 2) {
       .name {
         color: ${props => props.theme.colors.red};
       }
     }
-    .member:nth-child(3n+3) {
+    .member:nth-child(3n + 3) {
       .name {
         color: ${props => props.theme.colors.blue};
       }
     }
   }
 
-  @media (max-width: 1080px){
+  @media (max-width: 1080px) {
     max-width: 675px;
   }
 
-  @media (max-width: 800px){
+  @media (max-width: 800px) {
     max-width: 450px;
   }
 
-  @media (max-width: 540px){
+  @media (max-width: 540px) {
     max-width: 225px;
 
-    .chevronRight{
+    .chevronRight {
       right: -20%;
     }
 
-    .chevronLeft{
+    .chevronLeft {
       left: -20%;
     }
   }
-
-
 `

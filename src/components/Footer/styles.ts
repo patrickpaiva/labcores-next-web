@@ -48,7 +48,7 @@ export const Container = styled.div`
         p {
           font-size: 1.8rem;
           font-weight: 600;
-          letter-spacing: .5px;
+          letter-spacing: 0.5px;
         }
 
         .socialLogos {
@@ -61,21 +61,20 @@ export const Container = styled.div`
             cursor: pointer;
 
             &:hover {
-              filter: brightness(.5);
+              filter: brightness(0.5);
             }
           }
-
         }
       }
 
-      .ufrjLink, .ufrjLogo {
+      .ufrjLink,
+      .ufrjLogo {
         width: 250px;
         margin-top: 32px;
         align-self: flex-end;
         cursor: pointer;
       }
     }
-
   }
 
   .copyright {
@@ -110,7 +109,8 @@ export const Container = styled.div`
           }
         }
 
-        .ufrjLink, .ufrjLogo {
+        .ufrjLink,
+        .ufrjLogo {
           align-self: center;
           margin-top: 16px;
         }

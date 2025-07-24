@@ -33,8 +33,8 @@ export const HeroBG = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    content: "";
-    opacity: .6;
+    content: '';
+    opacity: 0.6;
     background: #000;
   }
 `
@@ -54,7 +54,7 @@ export const Content = styled.div<ContentProps>`
     text-align: center;
 
     span {
-      color: ${props => props.bannerColor}
+      color: ${props => props.bannerColor};
     }
   }
 

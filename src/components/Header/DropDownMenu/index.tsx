@@ -13,13 +13,13 @@ interface DropDownMenuProps {
 }
 
 const DropDownMenu: React.FC<DropDownMenuProps> = ({ isOpen, onClick }) => {
-  const router = useRouter();
-  const { locale, pathname, asPath, query } = router;
+  const router = useRouter()
+  const { locale, pathname, asPath, query } = router
   const translate = locale === 'en' ? en : pt
 
-  function changeLanguage(language) {
-    const locale = language;
-    router.push({ pathname, query }, asPath, { locale })
+  function changeLanguage(language: string) {
+    const newLocale = language
+    router.push({ pathname, query }, asPath, { locale: newLocale })
   }
 
   return (
@@ -28,26 +28,54 @@ const DropDownMenu: React.FC<DropDownMenuProps> = ({ isOpen, onClick }) => {
 
       <Nav>
         <div>
-          <Link href="/" locale={ locale }>{translate.HOME}</Link>
+          <Link href="/" locale={locale}>
+            {translate.HOME}
+          </Link>
         </div>
         <div>
-          <Link href="/about" locale={ locale }>{translate.ABOUT_US}</Link>
+          <Link href="/about" locale={locale}>
+            {translate.ABOUT_US}
+          </Link>
         </div>
         <div>
-          <Link href="/our-team" locale={ locale }>{translate.OUR_TEAM}</Link>
+          <Link href="/our-team" locale={locale}>
+            {translate.OUR_TEAM}
+          </Link>
         </div>
         <div>
-          <Link href="/research-areas" locale={ locale }>{translate.RESEARCH_AREAS}</Link>
+          <Link href="/research-areas" locale={locale}>
+            {translate.RESEARCH_AREAS}
+          </Link>
         </div>
         <div>
-        <a href="https://www.joniceoliveira.net/journal-publications" target="_blank">{translate.OUR_PUBLIC}</a>
-        </div> 
-        <div>
-          <Link href="/contact" locale={ locale }>{translate.CONTACT_US}</Link>
+          <a
+            href="https://www.joniceoliveira.net/journal-publications"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {translate.OUR_PUBLIC}
+          </a>
         </div>
-        <div className='language'>
-          <a onClick={() => changeLanguage('en')}>EN</a>
-          <a onClick={() => changeLanguage('pt')}>PT</a>
+        <div>
+          <Link href="/contact" locale={locale}>
+            {translate.CONTACT_US}
+          </Link>
+        </div>
+        <div className="language">
+          <button
+            type="button"
+            onClick={() => changeLanguage('en')}
+            style={{ background: 'none', border: 'none', cursor: 'pointer' }}
+          >
+            EN
+          </button>
+          <button
+            type="button"
+            onClick={() => changeLanguage('pt')}
+            style={{ background: 'none', border: 'none', cursor: 'pointer' }}
+          >
+            PT
+          </button>
         </div>
       </Nav>
     </Container>
